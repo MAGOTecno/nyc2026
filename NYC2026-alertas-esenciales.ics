@@ -1,0 +1,206 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//NYC 2026 v2//ES
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NYC 2026 v2
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:STANDARD
+DTSTART:20071104T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+END:STANDARD
+BEGIN:DAYLIGHT
+DTSTART:20070311T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:NYC2026V2-22-0@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261122T082500
+DURATION:PT30M
+SUMMARY:Llegada a JFK
+LOCATION:John F. Kennedy International Airport
+DESCRIPTION:Seguir señales de Passport Control\; luego salida y AirTrain si van en transporte público.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Llegada a JFK
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-22-1@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261122T104500
+DURATION:PT30M
+SUMMARY:AirTrain + tren hacia hotel
+LOCATION:The New Yorker Hotel
+DESCRIPTION:1. Terminal JFK → AirTrain a Jamaica. 2. Pagar salida de AirTrain en Jamaica. 3. Tomar LIRR hacia New York Penn Station. 4. Salir por 8th Avenue y caminar 3–5 min al hotel.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:AirTrain + tren hacia hotel
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-23-1@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261123T100000
+DURATION:PT30M
+SUMMARY:Museo de Historia Natural · Noche en el museo
+LOCATION:American Museum of Natural History\, 200 Central Park West
+DESCRIPTION:Caminar a 34 St–Penn Station\, entrada 8th Avenue. Tomar C Uptown hasta 81 St–Museum of Natural History. Seguir señalética al museo\; si hay cortes\, consultar MTA.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Museo de Historia Natural · Noche en el museo
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-24-0@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261124T060000
+DURATION:PT30M
+SUMMARY:Salida a Washington · según reserva
+LOCATION:Manhattan\, New York
+DESCRIPTION:Revisar correo de confirmación y seguir la dirección indicada por el operador. Desde hotel a Penn Station son 3–5 min si salen en tren.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Salida a Washington · según reserva
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-25-7@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261125T181500
+DURATION:PT30M
+SUMMARY:Ingreso a Madison Square Garden
+LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
+DESCRIPTION:Caminar 3–5 min desde hotel hacia Penn Station y la entrada indicada en las entradas (MSG ocupa Penn Plaza).
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Ingreso a Madison Square Garden
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-25-8@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261125T193000
+DURATION:PT30M
+SUMMARY:Knicks vs Cavaliers 🏀
+LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
+DESCRIPTION:Ya dentro del recinto\, seguir sección\, fila y asientos que aparecen en Wallet.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Knicks vs Cavaliers 🏀
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-26-1@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261126T070000
+DURATION:PT30M
+SUMMARY:Buscar lugar público para desfile
+LOCATION:6th Avenue and West 42nd Street\, Manhattan
+DESCRIPTION:Desde hotel caminar al este por W 34th hasta 6th Ave\; avanzar al norte por acceso permitido hasta la zona de W 42nd. Policía puede bloquear cruces.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Buscar lugar público para desfile
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-26-2@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261126T083000
+DURATION:PT30M
+SUMMARY:Desfile de Macy’s (100ª edición)
+LOCATION:6th Avenue\, Manhattan
+DESCRIPTION:Desde hotel: caminar hasta Sixth Avenue por W 34th y avanzar hacia W 42nd por zona habilitada\, sujeto a calles cortadas por policía.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Desfile de Macy’s (100ª edición)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-28-1@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261128T085000
+DURATION:PT30M
+SUMMARY:Metro a Battery Park
+LOCATION:The Battery\, Manhattan
+DESCRIPTION:34 St–Penn (7th Ave) → línea 1 Downtown hasta South Ferry (última estación) → caminar hasta Castle Clinton/Battery Park.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Metro a Battery Park
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-28-2@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261128T094500
+DURATION:PT30M
+SUMMARY:Ferry oficial Estatua + Ellis Island
+LOCATION:Castle Clinton\, The Battery\, Manhattan
+DESCRIPTION:Dirigirse al área de controles de Statue City Cruises en The Battery/Castle Clinton. Seguir turno de entrada impreso en boleto.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Ferry oficial Estatua + Ellis Island
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-28-oneworld@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261128T152500
+DURATION:PT30M
+SUMMARY:Mirador One World Observatory (opcional)
+LOCATION:One World Observatory\, 117 West St\, New York
+DESCRIPTION:Desde el Memorial 11-S caminar 3–5 min a la entrada de One World Observatory (117 West St). Subir por ascensor.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Mirador One World Observatory (opcional)
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-29-4@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261129T131500
+DURATION:PT30M
+SUMMARY:Tren hacia JFK
+LOCATION:John F. Kennedy International Airport
+DESCRIPTION:Desde Penn Station tomar LIRR a Jamaica (confirmar andén)\, salir al AirTrain a JFK\, elegir terminal de LATAM. No tomar tren hacia otra estación.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Tren hacia JFK
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V2-29-6@viaje.local
+DTSTAMP:20261120T232021Z
+DTSTART;TZID=America/New_York:20261129T182500
+DURATION:PT30M
+SUMMARY:Vuelo de regreso a Santiago
+LOCATION:John F. Kennedy International Airport
+DESCRIPTION:Confirmar en la tarjeta de embarque la terminal\, puerta y hora de embarque.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Vuelo de regreso a Santiago
+END:VALARM
+END:VEVENT
+END:VCALENDAR
