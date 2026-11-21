@@ -1,57 +1,57 @@
-# NYC 2026 — Nuestro viaje · Versión 2.0
+# NYC 2026 – Nuestro viaje · versión 3.0
 
-Aplicación web instalable (PWA) y totalmente estática para [GitHub Pages](https://github.com/MAGOTecno/nyc2026).
+Web-app instalable para GitHub Pages: <https://magotecno.github.io/nyc2026/> · código fuente en <https://github.com/MAGOTecno/nyc2026>.
 
-## Publicar o actualizar en GitHub
+## Novedades de la versión 3
 
-Repositorio: https://github.com/MAGOTecno/nyc2026
-URL publicada esperada: https://magotecno.github.io/nyc2026/
+- **8 nuevas actividades icónicas** agrupadas por sectores para evitar desvíos largos: Central Perk (domingo), árbol de Rockefeller/FAO Schwarz/Radio City (lunes), puente Gapstow/The Plaza (miércoles), Joe's Pizza/Friends (viernes) y cena Katz's (sábado; se actualiza la cena existente). Son 70 actividades en total, incluidas opciones.
+- En cada tarjeta encontrarás **etiquetas culturales** («🎬 Mi pobre angelito 2», «📺 Friends», «🕷️ Spider-Man 2»), una frase corta que explica por qué es famosa, botón **Más detalles**, precios o advertencias y rutas con metro o caminata.
+- En **Plan → 🎬 Ver solo lugares famosos** puedes filtrar las paradas temáticas de cada día.
+- El **diccionario** agrega frases para fotos, restaurantes y lugares de cine y ofrece frases específicas en el detalle de los nuevos lugares.
+- Se conservan el clima en línea, el itinerario editable, el checklist, el presupuesto, modo sin conexión, mapas y exportación de alertas del calendario.
 
-**Desde iPhone, sin computador:**
+### Importante: lugares ficticios vs. reales
 
-1. Descarga `NYC2026_v2_GitHub_Pages.zip` al iPhone (app **Archivos** → **Descargas**).
-2. En **Archivos**, toca el ZIP una vez para descomprimirlo. Abre la carpeta resultante (verás `index.html`, `app.js`, etc.).
-3. Abre **Safari** y entra a https://github.com/MAGOTecno/nyc2026 (inicia sesión). Si hace falta, elige «Solicitar sitio web de escritorio» en las opciones de Safari.
-4. En el repositorio pulsa **Add file → Upload files**. Pulsa **choose your files** y en **Archivos** selecciona **los archivos interiores** de la carpeta descomprimida (no subas solamente el ZIP). Selecciona varios si aparece la opción; de lo contrario súbelos por tandas. Confirma **Commit changes**. Si ya existen archivos con el mismo nombre, súbelos al mismo directorio raíz y confirma la sustitución.
-5. En **Settings → Pages**, verificar que Source sea `Deploy from a branch`, Branch `main`, Carpeta `/(root)`. Si GitHub Pages ya estaba habilitado **no hace falta activarlo de nuevo**.
-6. Espera a que termine el despliegue (en **Actions** aparece el estado). Abre https://magotecno.github.io/nyc2026/ . Si sigue apareciendo v1, cierra la app, vuelve a entrar con conexión, en la pestaña **Más** pulsa «Buscar actualización», y vuelve a abrir.
+- **Central Perk**: el café que aparece en *Friends* era un set de televisión en Los Ángeles. **Sí existe ahora un Central Perk Coffeehouse oficial en Times Square**, 20 Times Square (7th Ave / W 47th), abierto todos los días 08:00–23:00 según el sitio oficial. https://centralperk.com/pages/new-york-city-store-location
+- **Edificio Friends**: la fachada exterior está en 90 Bedford St / Grove St; es un edificio privado y no se puede visitar por dentro.
+- **Joe's Pizza**: la película *Spider-Man 2* utilizó el antiguo local en 233 Bleecker St / Carmine; el restaurante ahora está a unos metros, en 7 Carmine St. https://fd28ddd581db4c328a3c8a521586cb4b.web.ordersave.com/greenwich-village
+- **Duncan's Toy Chest**: es una juguetería **ficticia**, inspirada en FAO Schwarz. Las escenas de la tienda se grabaron en Chicago. La actual **FAO Schwarz** real está en 30 Rockefeller Plaza y se visita gratuitamente. https://www.rockefellercenter.com/shops/fao-schwarz/
+- **Árbol de Rockefeller**: estará instalado pero **no encendido** durante las fechas del viaje. La iluminación oficial será el **2 de diciembre de 2026**. https://www.rockefellercenter.com/holidays/
+- **The Plaza y puente Gapstow**: son locaciones reales de *Mi pobre angelito 2*, a las que pueden ir el miércoles durante el paseo de Central Park.
+- **Katz's**: 205 East Houston St, célebre por el pastrami y por la película *Cuando Harry conoció a Sally*. Un sándwich de pastrami ronda USD 30 (confirmar carta). Visita opcional como cena del sábado; si están cansados pueden cenar en el hotel.
+- **Radio City Music Hall**: célebre por su marquesina Art Decó, Rockettes y espectáculos navideños. La foto exterior es gratuita; los espectáculos requieren entrada.
 
-**Desde computador:** Descomprime el ZIP, entra al repositorio en la web, **Add file → Upload files**, arrastra los archivos nuevos al directorio raíz, confirma el commit. Es más cómodo que hacerlo con el teléfono, pero **no es obligatorio**.
+## Actualizar GitHub Pages desde iPhone o computador
 
-Nota: si la cuenta no permite subir varios archivos desde Safari, la alternativa sencilla es actualizar desde computador. Evita subir una carpeta `nyc2026_v2` dentro del repositorio: `index.html` debe estar en la **raíz**.
+**Antes de comenzar: en la aplicación vieja, entra a Más → Guardar copia JSON** para respaldar checklist, gastos y horarios personalizados.
 
-## Novedades v2
+1. Descarga `NYC2026_v3_GitHub_Pages.zip` y descomprímelo en la aplicación **Archivos** del iPhone, o en el computador.
+2. Abre <https://github.com/MAGOTecno/nyc2026> en Safari o navegador de escritorio, iniciando sesión en GitHub.
+3. Selecciona **Add file → Upload files**. En Safari del iPhone, si no aparece la opción, elige **Solicitar sitio web de escritorio**.
+4. Selecciona **los 11 archivos del interior de la carpeta descomprimida** (no subas el ZIP ni la carpeta como subcarpeta). Deben reemplazar los actuales en la **raíz** del repositorio, particularmente `index.html`, `app.js`, `data.js`, `style.css`, `sw.js` y los archivos de calendario. Haz **Commit changes**.
+5. Si Pages ya está habilitado, **no cambies** la configuración. Espera unos minutos a que GitHub termine el despliegue. Si hace falta, comprueba **Actions**.
+6. Abre <https://magotecno.github.io/nyc2026/> en Safari. Desde la aplicación pulsa **Más → Buscar actualización**, luego ciérrala completamente y vuelve a abrir. Si la pantalla sigue en caché, espera un poco y prueba abrir la URL desde Safari.
+7. Busca **Plan → Lun 23 → FAO Schwarz** y comprueba que aparece la etiqueta **Mi pobre angelito 2**. La etiqueta confirma la versión 3.
 
-- **Actualizar clima:** consulta en tiempo real el servicio gratuito Open-Meteo, sin clave de API, por HTTPS. Requiere internet. Presenta máxima probabilidad de precipitación y riesgo aproximado por mañana/tarde/noche; el cálculo varía según el proveedor y **no equivale a una alerta oficial**. Si no hay red, muestra último pronóstico almacenado o referencia del 20/11/2026.
-- **Itinerario corregido:** el domingo 22 (lluvia intensa a partir de la tarde) Times Square es breve y temprano; se agrega visita nocturna el lunes 23. Museo Americano de Historia Natural, que inspiró «Night at the Museum», lunes 23. Central Park + Knicks miércoles 25. Estatua/One World sábado 28 si permiten el clima, y domingo 29 sin paseos obligatorios por previsión de lluvia. Otras reservas y fechas fijas no se mueven automáticamente.
-- **Más detalles en cada actividad:** qué es, trayecto explicado, recomendación de ruta y 3 frases de inglés de esa situación. Los mapas externos se abren en Google Maps; las líneas y la frecuencia deben verificarse en MTA.
-- **Inglés:** 53 frases, buscador y reproducción de voz local del navegador (puede variar según voces instaladas).
-- **Mirador:** One World Observatory, opcional, desde USD 39 por adulto más cargos/impuestos. Presupuesto USD 95 para dos, puedes incluir/excluir el mirador en **Gastos**. Alternativa gratis: DUMBO/puente Brooklyn; alternativa clásica: Top of the Rock (otro precio).
-- **Alertas:** calendario completo (`NYC2026.ics`) o calendario solo de eventos esenciales (`NYC2026-alertas-esenciales.ics`), avisos con anticipación de 30 min, horario `America/New_York`.
+No necesitas computadora. Para subir 11 archivos, sin embargo, el computador suele ser más cómodo. GitHub Pages gratis requiere un repositorio público: no subas pasaportes, números bancarios ni los QR de tus entradas.
 
-## Atención: calendario y alertas
+## Checklist, gastos y calendarios
 
-- Una PWA publicada en GitHub Pages **no puede emitir alertas fiables cuando está completamente cerrada** sin backend/push. Los `.ics` agregan alarmas al calendario del teléfono. Importa el que prefieras en un calendario separado para identificarlo y eliminarlo fácilmente.
-- Si ya importaste `NYC2026.ics` de la versión anterior, **borra el calendario anterior antes de importar v2**, porque los recordatorios podrían duplicarse. En la pestaña **Más** puedes exportar las citas según los horarios que edites.
-- Importa `.ics` desde una app compatible de calendario; en iPhone, dependiendo del sistema, puede resultar más fácil agregarlo en un calendario de iCloud desde Mac, Calendario web compatible o enviar por correo y abrir archivo. Verifica una alarma.
+Los datos se guardan con la misma clave local que usaba v2. La versión 3 **preserva los checklist y gastos locales** y agrega las nuevas actividades. Cuando una actividad existente cambió de hora o nombre, v3 solo actualiza los campos que siguen exactamente iguales a los originales de v2; si modificaste un campo personalmente, trata de respetarlo. **Exportar copia JSON antes de actualizar es muy recomendable.**
 
-## Privacidad y conservación de datos
+Si importaste el calendario de v2, elimínalo antes de importar el nuevo para evitar duplicados. Incluimos dos archivos `.ics`: uno con 70 actividades y otro con 13 recordatorios esenciales. Todos utilizan hora de Nueva York y aviso 30 minutos antes. En la pestaña **Más** puedes volver a exportarlos según tus modificaciones.
 
-- Los archivos que subes al repositorio público muestran itinerario y hotel. **NO** subas números de pasaporte, credenciales ni códigos QR.
-- Los gastos, checklist, cambios y previsión se guardan **localmente en el navegador del iPhone**. No se sincronizan con otros teléfonos y pueden perderse si se borran datos de Safari, se usa otro navegador o cambia la URL.
-- Actualizar el código en la **misma URL** no debería borrar los gastos. La aplicación migra los marcados/compras de v1 a v2 y guarda una copia local `nyc2026-v1-before-upgrade`. **El itinerario base de v1 se reemplaza por el nuevo plan y los horarios personalizados anteriores no se trasladan automáticamente**. Si habías editado muchos horarios, exporta copia JSON desde **Más** antes de actualizar.
-- En v2, nuevos cambios se conservan tras reemplazar los archivos en el servidor.
+**Las alertas de una web app estática no se pueden garantizar cuando está cerrada:** para ello utiliza Calendario de Apple con los `.ics`. Los datos no se sincronizan automáticamente entre teléfonos; el clima y los mapas requieren internet, pero el itinerario puede abrir sin conexión tras instalar la app y abrirla en línea al menos una vez.
 
-## Fuentes de precios y observaciones (consulta 20/11/2026)
+## Fuentes de ubicaciones consultadas el 21/11/2026
 
-- Museo Americano de Historia Natural: https://www.amnh.org/plan-your-visit — entrada general **USD 37 adulto no residente NY**, USD 74 para dos; cerrado el jueves de Thanksgiving. Recorrido de la película: https://www.amnh.org/plan-your-visit/tours/night-museum-exhibits
-- One World Observatory: https://www.oneworldobservatory.com/es/buy-tickets/ — **desde USD 39 por adulto + USD 3.50 de gestión + impuestos**; precio final y disponibilidad sujetos a fecha/hora.
-- Ferry oficial: https://www.cityexperiences.com/new-york/city-cruises/statue/ — revisar tarifa y horario antes de pagar.
-- Alerta meteorológica ciudad: https://www.nyc.gov/site/em/about/pr_20261120_NYCEM-Issues-Weather-Alert-Windy-Soaking-Rain-Sunday-To-Monday.page
-- Clima dinámico: https://open-meteo.com/ — información orientativa, no sustituye fuentes oficiales de alertas.
+- Central Perk oficial: https://centralperk.com/pages/new-york-city-store-location
+- Friends, fachada: https://www.lonelyplanet.com/articles/friends-nyc-itinerary
+- Joe's Pizza oficial: https://fd28ddd581db4c328a3c8a521586cb4b.web.ordersave.com/greenwich-village
+- Katz's oficial: https://katzsdelicatessen.com/
+- Plaza Hotel (filmografía): https://www.theplazany.com/history/faces-films-moments/
+- Central Park Conservancy (puente Gapstow): https://www.centralparknyc.org/articles/movies-in-central-park-our-favorite-park-locations-made-famous-on-film
+- Rockefeller Center, árbol y fecha de encendido: https://www.rockefellercenter.com/holidays/
+- FAO Schwarz: https://www.rockefellercenter.com/shops/fao-schwarz/
 
-## Qué contiene el paquete
-
-`index.html`, `style.css`, `data.js`, `app.js`, `manifest.webmanifest`, `sw.js`, iconos PNG, ambos calendarios `.ics` y este `README.md`.
-
-Para instalar en iPhone: en Safari abre la URL y elige **Compartir → Agregar a pantalla de inicio**. Deja cargar la aplicación online al menos una vez, luego el itinerario puede abrir sin conexión; pronóstico nuevo, mapas y enlaces externos necesitan Internet.
+**Archivos para subir**: `index.html`, `app.js`, `data.js`, `style.css`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `NYC2026.ics`, `NYC2026-alertas-esenciales.ics`, `README.md`.
