@@ -2,3 +2,8 @@
 
 /* NYC v3: etiquetas culturales y filtro de locaciones */
 .iconic-tags{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0 7px}.iconic-tag{display:inline-flex;background:#fff2dc;border:1px solid #ead09c;color:#85521c;font-size:10px;font-weight:750;padding:4px 7px;border-radius:7px;line-height:1.2}.fame-note{font-size:12px!important;color:#76552c!important;font-weight:620;line-height:1.35;margin:1px 0 8px!important}.fame-highlight{background:#fff8ed;border:1px solid #f1ddba;padding:10px 12px;border-radius:11px;margin:7px 0 12px}.fame-highlight b{font-size:12px;color:#714b1c}.fame-highlight p{margin:5px 0 0;font-size:12px!important}.iconic-filter-wrap{display:flex;align-items:center;gap:8px;justify-content:space-between;flex-wrap:wrap;margin:4px 0 12px}.iconic-filter-wrap button{font-size:12px;padding:9px 12px}.iconic-filter-wrap small{font-size:11px}
+
+/* v4: avisos de reserva y comodidades */
+.notice{background:#eef6ff;border:1px solid #bfdbf3;border-radius:13px;padding:13px;margin:10px 0 14px;font-size:13px;line-height:1.5}.phrase-box h4{color:#173451}.phrase-box .muted{margin:2px 0 5px}.activity.done{border-left:3px solid #5aa17b}.buttons button{min-height:36px}nav button{min-height:54px}
+
+.decision{border:1px solid #c4d9ea;background:#edf6fb}.decision .switch{display:flex;align-items:flex-start;gap:12px;margin:11px 0;padding:9px;border-radius:10px;background:white}.decision .links{display:flex;flex-wrap:wrap;gap:10px}.decision .links a{font-size:12px}.activity .badge{font-size:11px}button:disabled{opacity:.48;cursor:not-allowed}

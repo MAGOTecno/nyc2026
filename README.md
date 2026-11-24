@@ -1,57 +1,56 @@
-# NYC 2026 – Nuestro viaje · versión 3.0
+# NYC 2026 – Versión 5.1 (23 de noviembre de 2026)
 
-Web-app instalable para GitHub Pages: <https://magotecno.github.io/nyc2026/> · código fuente en <https://github.com/MAGOTecno/nyc2026>.
+Aplicación PWA para el repositorio `https://github.com/MAGOTecno/nyc2026` y el sitio `https://magotecno.github.io/nyc2026/`. Esta carpeta contiene **11 archivos públicos** para GitHub Pages. No requiere servidor ni base de datos. Todo se puede actualizar desde Safari en un iPhone.
 
-## Novedades de la versión 3
+## Cambios
 
-- **8 nuevas actividades icónicas** agrupadas por sectores para evitar desvíos largos: Central Perk (domingo), árbol de Rockefeller/FAO Schwarz/Radio City (lunes), puente Gapstow/The Plaza (miércoles), Joe's Pizza/Friends (viernes) y cena Katz's (sábado; se actualiza la cena existente). Son 70 actividades en total, incluidas opciones.
-- En cada tarjeta encontrarás **etiquetas culturales** («🎬 Mi pobre angelito 2», «📺 Friends», «🕷️ Spider-Man 2»), una frase corta que explica por qué es famosa, botón **Más detalles**, precios o advertencias y rutas con metro o caminata.
-- En **Plan → 🎬 Ver solo lugares famosos** puedes filtrar las paradas temáticas de cada día.
-- El **diccionario** agrega frases para fotos, restaurantes y lugares de cine y ofrece frases específicas en el detalle de los nuevos lugares.
-- Se conservan el clima en línea, el itinerario editable, el checklist, el presupuesto, modo sin conexión, mapas y exportación de alertas del calendario.
+- Respeta el respaldo privado `NYC2026-copia-v3(1).json` (20 actividades marcadas, 4 gastos registrados), y añade el tour **TopView** realizado el lunes, sin marcar como comprobado que desembarcaron en la Estatua o subieron al observatorio. Para esos dos puntos hay casillas de confirmación en **Más**.
+- No repetir Downtown/11-S/Wall Street ni contratar otro bus de paradas libres; ya han hecho TopView y **Liberty Cruise panorámico**.
+- **24/11**: selector «Washington reservado» (desactivado hasta tener voucher real). Al activar, plan con bus y guía; al desactivar, Museo de Historia Natural + Central Park bici/scooter por caminos Park Drives habilitados + mall Columbus Circle. Opciones de tours guiados en español enlazadas.
+- **25/11**: si Washington se confirmó, museo/Parque, con descanso largo; si no, Hudson Yards, mall y High Line; **Knicks fijo 19:30** en MSG y llegada sugerida 18:15.
+- **26/11**: desfile Thanksgiving y plan por lluvia, sin contar con comercios abiertos.
+- **27/11**: Macy's Black Friday + **Victoria's Secret/PINK en 435 7th Ave** + compras/regalos, SoHo, Joe's Pizza y edificio de Friends si aún hay energía.
+- **28/11**: opción Brooklyn + Katz's; ferry oficial con desembarque SOLO si no lo hicieron antes, activable desde **Más**. No paga otro tour TopView. Chelsea Market es opcional, no obligatorio.
+- **29/11**: equipaje, LIRR/AirTrain, vuelo JFK 18:25.
+- **177 frases** en múltiples categorías con audio en inglés, y diálogos específicos en actividades de Washington, tiendas, scooter, restaurante, ferry y fotos.
+- Pronóstico en línea por el botón **Actualizar clima** usando Open-Meteo; actualización no cambia reservas por sí sola. Información almacenada localmente en el iPhone. El clima de referencia se revisó el 23/11.
 
-### Importante: lugares ficticios vs. reales
+## URGENTE: Washington mañana
 
-- **Central Perk**: el café que aparece en *Friends* era un set de televisión en Los Ángeles. **Sí existe ahora un Central Perk Coffeehouse oficial en Times Square**, 20 Times Square (7th Ave / W 47th), abierto todos los días 08:00–23:00 según el sitio oficial. https://centralperk.com/pages/new-york-city-store-location
-- **Edificio Friends**: la fachada exterior está en 90 Bedford St / Grove St; es un edificio privado y no se puede visitar por dentro.
-- **Joe's Pizza**: la película *Spider-Man 2* utilizó el antiguo local en 233 Bleecker St / Carmine; el restaurante ahora está a unos metros, en 7 Carmine St. https://fd28ddd581db4c328a3c8a521586cb4b.web.ordersave.com/greenwich-village
-- **Duncan's Toy Chest**: es una juguetería **ficticia**, inspirada en FAO Schwarz. Las escenas de la tienda se grabaron en Chicago. La actual **FAO Schwarz** real está en 30 Rockefeller Plaza y se visita gratuitamente. https://www.rockefellercenter.com/shops/fao-schwarz/
-- **Árbol de Rockefeller**: estará instalado pero **no encendido** durante las fechas del viaje. La iluminación oficial será el **2 de diciembre de 2026**. https://www.rockefellercenter.com/holidays/
-- **The Plaza y puente Gapstow**: son locaciones reales de *Mi pobre angelito 2*, a las que pueden ir el miércoles durante el paseo de Central Park.
-- **Katz's**: 205 East Houston St, célebre por el pastrami y por la película *Cuando Harry conoció a Sally*. Un sándwich de pastrami ronda USD 30 (confirmar carta). Visita opcional como cena del sábado; si están cansados pueden cenar en el hotel.
-- **Radio City Music Hall**: célebre por su marquesina Art Decó, Rockettes y espectáculos navideños. La foto exterior es gratuita; los espectáculos requieren entrada.
+No hay disponibilidad confirmada para 24/11; reserva solo al ver **2 adultos + fecha 24/11 + salida y guía en español** en la confirmación:
 
-## Actualizar GitHub Pages desde iPhone o computador
+- https://www.viator.com/es-ES/tours/New-York/Washington-D-C-Tour-from-New-York/d5560-5614063P8 – Real's Tours, excursión acompañada en español, anuncio de grupo reducido.
+- https://www.expedia.com/things-to-do/washington-d-c-day-trip-from-new-york.a184049.activity-details – Empire Vacations, anuncio de salida 06:30 desde 330 W 42nd St, cerca del New Yorker.
+- https://excursionawashingtonenespanol.com/en/ – tour anunciado desde 7th Ave con W 51st St, consultar precio/cupos y cancelación.
 
-**Antes de comenzar: en la aplicación vieja, entra a Más → Guardar copia JSON** para respaldar checklist, gastos y horarios personalizados.
+**No comprar solo billetes de bus interurbano a Washington** ni tour hop-on/hop-off de Washington si quieres transporte entre monumentos con guía acompañante.
 
-1. Descarga `NYC2026_v3_GitHub_Pages.zip` y descomprímelo en la aplicación **Archivos** del iPhone, o en el computador.
-2. Abre <https://github.com/MAGOTecno/nyc2026> en Safari o navegador de escritorio, iniciando sesión en GitHub.
-3. Selecciona **Add file → Upload files**. En Safari del iPhone, si no aparece la opción, elige **Solicitar sitio web de escritorio**.
-4. Selecciona **los 11 archivos del interior de la carpeta descomprimida** (no subas el ZIP ni la carpeta como subcarpeta). Deben reemplazar los actuales en la **raíz** del repositorio, particularmente `index.html`, `app.js`, `data.js`, `style.css`, `sw.js` y los archivos de calendario. Haz **Commit changes**.
-5. Si Pages ya está habilitado, **no cambies** la configuración. Espera unos minutos a que GitHub termine el despliegue. Si hace falta, comprueba **Actions**.
-6. Abre <https://magotecno.github.io/nyc2026/> en Safari. Desde la aplicación pulsa **Más → Buscar actualización**, luego ciérrala completamente y vuelve a abrir. Si la pantalla sigue en caché, espera un poco y prueba abrir la URL desde Safari.
-7. Busca **Plan → Lun 23 → FAO Schwarz** y comprueba que aparece la etiqueta **Mi pobre angelito 2**. La etiqueta confirma la versión 3.
+## Actualización del repositorio desde iPhone
 
-No necesitas computadora. Para subir 11 archivos, sin embargo, el computador suele ser más cómodo. GitHub Pages gratis requiere un repositorio público: no subas pasaportes, números bancarios ni los QR de tus entradas.
+1. En tu aplicación instalada pulsa **Más → Guardar copia JSON**. Es **privada**: solo en Archivos o iCloud privado, **nunca en GitHub**.
+2. Descarga `NYC2026_v5_GitHub_Pages.zip` desde ChatGPT. Abre Archivos y pulsa el ZIP para descomprimir.
+3. Safari → https://github.com/MAGOTecno/nyc2026 → `Add file` → `Upload files`. Si no ves opciones, usa «Solicitar sitio web de escritorio». Selecciona los **11 archivos sueltos** dentro de la carpeta descomprimida.
+4. Deben quedar en la raíz junto a `index.html`, no dentro de una subcarpeta. Confirma **Commit changes**.
+5. Espera 1–3 minutos, abre https://magotecno.github.io/nyc2026/ , toca **Más → Buscar actualización** y fuerza cierre/reapertura de la aplicación si ves recursos antiguos. La versión visible es **5.0**.
+6. Revisa **Más** y confirma si Washington está reservado y si ya desembarcaron en Liberty Island. El plan se adapta automáticamente.
+7. Comprueba las marcas y 4 gastos. Si faltan, usa **Más → Restaurar copia anterior** y selecciona el JSON PRIVADO v5 o tu respaldo reciente v3; la aplicación lo adapta.
 
-## Checklist, gastos y calendarios
+La migración usa la clave `nyc2026-v1` (mismo origen de las versiones anteriores) y mantiene marcas/gastos. Los horarios personalizados se conservan solo cuando difieren del diseño previo; la nueva versión reordena las actividades predeterminadas. Guarda respaldo antes.
 
-Los datos se guardan con la misma clave local que usaba v2. La versión 3 **preserva los checklist y gastos locales** y agrega las nuevas actividades. Cuando una actividad existente cambió de hora o nombre, v3 solo actualiza los campos que siguen exactamente iguales a los originales de v2; si modificaste un campo personalmente, trata de respetarlo. **Exportar copia JSON antes de actualizar es muy recomendable.**
+## Calendario
 
-Si importaste el calendario de v2, elimínalo antes de importar el nuevo para evitar duplicados. Incluimos dos archivos `.ics`: uno con 70 actividades y otro con 13 recordatorios esenciales. Todos utilizan hora de Nueva York y aviso 30 minutos antes. En la pestaña **Más** puedes volver a exportarlos según tus modificaciones.
+Incluimos ICS de itinerario base **sin Washington confirmado**. Para generar alertas correctas del plan que elijas: marca si reservaste Washington y si necesitas ferry, luego entra a **Más → Alertas y calendario** y exporta **Alertas esenciales**. Importa el nuevo calendario en Apple y elimina el anterior si estaba importado (así evitas avisos duplicados). La PWA sola no envía alertas con la aplicación cerrada.
 
-**Las alertas de una web app estática no se pueden garantizar cuando está cerrada:** para ello utiliza Calendario de Apple con los `.ics`. Los datos no se sincronizan automáticamente entre teléfonos; el clima y los mapas requieren internet, pero el itinerario puede abrir sin conexión tras instalar la app y abrirla en línea al menos una vez.
+## Nota sobre el ferry y la bicicleta/scooter
 
-## Fuentes de ubicaciones consultadas el 21/11/2026
+Una foto o visita panorámica desde TopView **no equivale a desembarcar** en Liberty Island ni entrar al mirador One World. Si ya desembarcaron, activa esa casilla y el ferry se oculta; si desean la visita y no la hicieron, activa «Ruta ferry oficial». Scooter eléctrico: solamente en vías autorizadas (`Park Drives`) y sujeto a reglas de NYC Parks; **no** utilizar por senderos ni veredas. Recomendamos bici tradicional para viajar tranquilos.
 
-- Central Perk oficial: https://centralperk.com/pages/new-york-city-store-location
-- Friends, fachada: https://www.lonelyplanet.com/articles/friends-nyc-itinerary
-- Joe's Pizza oficial: https://fd28ddd581db4c328a3c8a521586cb4b.web.ordersave.com/greenwich-village
-- Katz's oficial: https://katzsdelicatessen.com/
-- Plaza Hotel (filmografía): https://www.theplazany.com/history/faces-films-moments/
-- Central Park Conservancy (puente Gapstow): https://www.centralparknyc.org/articles/movies-in-central-park-our-favorite-park-locations-made-famous-on-film
-- Rockefeller Center, árbol y fecha de encendido: https://www.rockefellercenter.com/holidays/
-- FAO Schwarz: https://www.rockefellercenter.com/shops/fao-schwarz/
+## Privacidad
 
-**Archivos para subir**: `index.html`, `app.js`, `data.js`, `style.css`, `manifest.webmanifest`, `sw.js`, `icon-192.png`, `icon-512.png`, `NYC2026.ics`, `NYC2026-alertas-esenciales.ics`, `README.md`.
+El repositorio GitHub es público. El ZIP solo contiene código, itinerario genérico e íconos. Tu progreso y los gastos NO van dentro del ZIP, ni se comparten con GitHub. Los archivos privados JSON deben quedarse en tu iPhone.
+
+## Actualización Liberty Cruise (v5.1)
+
+El viaje panorámico **Liberty Cruise** ya fue realizado: vieron la Estatua de la Libertad desde el barco, sin confirmación de desembarque en la isla. La ruta del sábado recomienda Brooklyn y Katz’s y mantiene el ferry oficial a Liberty Island como **alternativa opcional**, solo si quieren desembarcar. Los datos privados siguen exclusivamente en el teléfono.
+
+**Nota para actualización desde la versión 3:** La primera apertura migrará las marcas de actividades y gastos del teléfono y registrará Liberty Cruise como completado. No hará falta importar un JSON de respaldo si el iPhone mantiene su almacenamiento. El archivo ZIP no incluye gastos personales.

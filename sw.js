@@ -1,4 +1,4 @@
-const CACHE='nyc2026-cache-v3-20261121';
+const CACHE='nyc2026-cache-v5-1-20261123';
 const FILES=['./','./index.html','./style.css','./data.js','./app.js','./manifest.webmanifest','./icon-192.png','./icon-512.png','./NYC2026.ics','./NYC2026-alertas-esenciales.ics'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('nyc2026-cache-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
