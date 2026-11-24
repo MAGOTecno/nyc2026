@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NYC 2026 V3//ES
+PRODID:-//NYC2026 v5.2//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:NYC 2026 V3
+X-WR-CALNAME:NYC 2026 v5.2
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:STANDARD
@@ -22,185 +22,171 @@ TZNAME:EDT
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:NYC2026V3-22-0@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261122T082500
+UID:NYC2026V52-24-0@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T054500
 DURATION:PT30M
-SUMMARY:Llegada a JFK
-LOCATION:John F. Kennedy International Airport
-DESCRIPTION:Seguir señales de Passport Control\; luego salida y AirTrain si van en transporte público.
+SUMMARY:Washington confirmado · salida según voucher
+LOCATION:Salida según tour reservado (Midtown Manhattan)
+DESCRIPTION:1. Abrir comprobante de reserva y localizar Meeting Point y Departure Time. 2. Ajustar la hora en esta actividad según voucher. 3. Salir del hotel con tiempo extra para llegar 15–20 min antes. 4. Mostrar voucher al personal y viajar con el guía.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Llegada a JFK
+DESCRIPTION:Washington confirmado · salida según voucher
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-22-1@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261122T104500
-DURATION:PT30M
-SUMMARY:AirTrain + tren hacia hotel
-LOCATION:The New Yorker Hotel
-DESCRIPTION:1. Terminal JFK → AirTrain a Jamaica. 2. Pagar salida de AirTrain en Jamaica. 3. Tomar LIRR hacia New York Penn Station. 4. Salir por 8th Avenue y caminar 3–5 min al hotel.
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:AirTrain + tren hacia hotel
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V3-23-1@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261123T100000
-DURATION:PT30M
-SUMMARY:Museo de Historia Natural · Noche en el museo
-LOCATION:American Museum of Natural History\, 200 Central Park West
-DESCRIPTION:Caminar a 34 St–Penn Station\, entrada 8th Avenue. Tomar C Uptown hasta 81 St–Museum of Natural History. Seguir señalética al museo\; si hay cortes\, consultar MTA.
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Museo de Historia Natural · Noche en el museo
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V3-24-0@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261124T060000
-DURATION:PT30M
-SUMMARY:Salida a Washington · según reserva
-LOCATION:Manhattan\, New York
-DESCRIPTION:Revisar correo de confirmación y seguir la dirección indicada por el operador. Desde hotel a Penn Station son 3–5 min si salen en tren.
-BEGIN:VALARM
-TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Salida a Washington · según reserva
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V3-25-7@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-25-7@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T181500
 DURATION:PT30M
 SUMMARY:Ingreso a Madison Square Garden
 LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
 DESCRIPTION:Caminar 3–5 min desde hotel hacia Penn Station y la entrada indicada en las entradas (MSG ocupa Penn Plaza).
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Ingreso a Madison Square Garden
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-25-8@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-25-8@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T193000
 DURATION:PT30M
 SUMMARY:Knicks vs Cavaliers 🏀
 LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
 DESCRIPTION:Ya dentro del recinto\, seguir sección\, fila y asientos que aparecen en Wallet.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Knicks vs Cavaliers 🏀
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-26-1@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-26-1@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T070000
 DURATION:PT30M
 SUMMARY:Buscar lugar público para desfile
 LOCATION:6th Avenue and West 42nd Street\, Manhattan
 DESCRIPTION:Desde hotel caminar al este por W 34th hasta 6th Ave\; avanzar al norte por acceso permitido hasta la zona de W 42nd. Policía puede bloquear cruces.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Buscar lugar público para desfile
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-26-2@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-26-2@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T083000
 DURATION:PT30M
 SUMMARY:Desfile de Macy’s (100ª edición)
 LOCATION:6th Avenue\, Manhattan
 DESCRIPTION:Desde hotel: caminar hasta Sixth Avenue por W 34th y avanzar hacia W 42nd por zona habilitada\, sujeto a calles cortadas por policía.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desfile de Macy’s (100ª edición)
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V3-28-1@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261128T085000
-DURATION:PT30M
-SUMMARY:Metro a Battery Park
-LOCATION:The Battery\, Manhattan
-DESCRIPTION:34 St–Penn (7th Ave) → línea 1 Downtown hasta South Ferry (última estación) → caminar hasta Castle Clinton/Battery Park.
-BEGIN:VALARM
 TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Metro a Battery Park
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-28-2@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261128T094500
+UID:NYC2026V52-27-1@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261127T090000
 DURATION:PT30M
-SUMMARY:Ferry oficial Estatua + Ellis Island
-LOCATION:Castle Clinton\, The Battery\, Manhattan
-DESCRIPTION:Dirigirse al área de controles de Statue City Cruises en The Battery/Castle Clinton. Seguir turno de entrada impreso en boleto.
+SUMMARY:Macy’s Herald Square · compras Black Friday
+LOCATION:Macy’s\, 151 West 34th Street
+DESCRIPTION:Desde hotel: avanzar al este por W 34th Street hasta Broadway\, 8 min a pie.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Ferry oficial Estatua + Ellis Island
+DESCRIPTION:Macy’s Herald Square · compras Black Friday
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-28-oneworld@viaje.local
-DTSTAMP:20261121000000Z
-DTSTART;TZID=America/New_York:20261128T152500
+UID:NYC2026V52-27-victorias@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261127T100500
 DURATION:PT30M
-SUMMARY:Mirador One World Observatory (opcional)
-LOCATION:One World Observatory\, 117 West St\, New York
-DESCRIPTION:Desde el Memorial 11-S caminar 3–5 min a la entrada de One World Observatory (117 West St). Subir por ascensor.
+SUMMARY:Victoria’s Secret & PINK · regalos y perfumes
+LOCATION:Victoria’s Secret & PINK\, 435 7th Ave\, New York
+DESCRIPTION:1. Desde The New Yorker caminar por W 34th Street hacia 7th Ave. 2. Local en esquina 34th/7th: 435 7th Ave. 3. Comparar promociones de Black Friday y preguntar el precio final con impuesto. 4. Volver al hotel con las bolsas antes de ir a SoHo.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Mirador One World Observatory (opcional)
+DESCRIPTION:Victoria’s Secret & PINK · regalos y perfumes
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-29-4@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-27-joes@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261127T160000
+DURATION:PT30M
+SUMMARY:Joe’s Pizza · la pizzería de Peter Parker
+LOCATION:Joe’s Pizza\, 7 Carmine Street\, New York
+DESCRIPTION:1. Desde SoHo acercarse a Bleecker St y Carmine St. 2. Fotografiar esquina original 233 Bleecker. 3. Caminar unos metros a Joe’s Pizza actual\, 7 Carmine. 4. Pedir una slice clásica y seguir hacia Friends.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Joe’s Pizza · la pizzería de Peter Parker
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-28-brooklyn-ride@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261128T100000
+DURATION:PT30M
+SUMMARY:DUMBO y Brooklyn Bridge Park · sin repetir TopView
+LOCATION:Washington Street and Water Street\, Brooklyn\, New York
+DESCRIPTION:1. Entra a 34 St–Penn (8th Ave). 2. Toma A/C hacia Brooklyn y baja en High St. 3. Camina por Cadman Plaza hacia Washington St y Water St. 4. Fotos y continuación al East River por Brooklyn Bridge Park. 5. Para salir\, vuelve a High St o usa York St línea F.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:DUMBO y Brooklyn Bridge Park · sin repetir TopView
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-28-7@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261128T183000
+DURATION:PT30M
+SUMMARY:Katz’s Delicatessen · ¡pastrami!
+LOCATION:Katz’s Delicatessen\, 205 East Houston Street\, New York
+DESCRIPTION:1. Desde 90 Bedford ir a estación W 4 St–Washington Sq. 2. Tomar F Downtown hacia 2 Av (confirmar servicio MTA). 3. Caminar por East Houston St hacia Ludlow St (205 E Houston). 4. Entregar ticket a caja al salir\, NO perderlo. 5. Regresar al hotel en F Uptown desde 2 Av hacia 34 St–Herald Sq\, o taxi.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Katz’s Delicatessen · ¡pastrami!
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-29-4@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T131500
 DURATION:PT30M
 SUMMARY:Tren hacia JFK
 LOCATION:John F. Kennedy International Airport
 DESCRIPTION:Desde Penn Station tomar LIRR a Jamaica (confirmar andén)\, salir al AirTrain a JFK\, elegir terminal de LATAM. No tomar tren hacia otra estación.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Tren hacia JFK
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V3-29-6@viaje.local
-DTSTAMP:20261121000000Z
+UID:NYC2026V52-29-6@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T182500
 DURATION:PT30M
 SUMMARY:Vuelo de regreso a Santiago
 LOCATION:John F. Kennedy International Airport
 DESCRIPTION:Confirmar en la tarjeta de embarque la terminal\, puerta y hora de embarque.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Vuelo de regreso a Santiago
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 END:VCALENDAR

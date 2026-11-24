@@ -1,56 +1,40 @@
-# NYC 2026 – Versión 5.1 (23 de noviembre de 2026)
+# NYC 2026 — v5.2 | 23 de noviembre de 2026
 
-Aplicación PWA para el repositorio `https://github.com/MAGOTecno/nyc2026` y el sitio `https://magotecno.github.io/nyc2026/`. Esta carpeta contiene **11 archivos públicos** para GitHub Pages. No requiere servidor ni base de datos. Todo se puede actualizar desde Safari en un iPhone.
+## Qué cambió
 
-## Cambios
+- **Domingo 22:** recuperados los lugares realmente visitados: Times Square de día, Grand Central, Central Perk, Catedral de San Patricio, Rockefeller Center, árbol y pista de patinaje, Radio City, Bryant Park y su feria navideña, Biblioteca Pública de Nueva York.
+- **Lunes 23:** recorrido TopView, Empire State visto desde el bus, Liberty Cruise panorámico (sin confundir con desembarque), vistas del río Hudson y los puentes desde el agua, distrito de Wall Street, Charging Bull, Memorial 11-S y Oculus. Cada lugar está en una tarjeta independiente y tiene su propio check.
+- **Martes 24:** Washington guiado CONFIRMADO. La actividad de salida muestra una hora **REFERENCIAL**: editar de acuerdo con el voucher real antes de dormir.
+- **Miércoles 25:** Museo de Historia Natural, breve Central Park, descanso obligatorio y Knicks a las 19:30. Se mantienen las rutas alternativas en caso de cambios.
+- **Jueves 26:** desfile de Thanksgiving; revisar clima por riesgo de lluvias.
+- **Viernes 27:** Black Friday, Victoria's Secret, regalos, Joe's Pizza y Friends según energía.
+- **Sábado 28:** Brooklyn/DUMBO, Chelsea Market opcional y Katz's. NO repetir Wall Street, 11-S, Oculus o otro crucero panorámico. El ferry con desembarque en la isla queda como opción **solo si deciden hacerlo**.
+- **Domingo 29:** preparar equipaje y regresar a JFK con tiempo.
 
-- Respeta el respaldo privado `NYC2026-copia-v3(1).json` (20 actividades marcadas, 4 gastos registrados), y añade el tour **TopView** realizado el lunes, sin marcar como comprobado que desembarcaron en la Estatua o subieron al observatorio. Para esos dos puntos hay casillas de confirmación en **Más**.
-- No repetir Downtown/11-S/Wall Street ni contratar otro bus de paradas libres; ya han hecho TopView y **Liberty Cruise panorámico**.
-- **24/11**: selector «Washington reservado» (desactivado hasta tener voucher real). Al activar, plan con bus y guía; al desactivar, Museo de Historia Natural + Central Park bici/scooter por caminos Park Drives habilitados + mall Columbus Circle. Opciones de tours guiados en español enlazadas.
-- **25/11**: si Washington se confirmó, museo/Parque, con descanso largo; si no, Hudson Yards, mall y High Line; **Knicks fijo 19:30** en MSG y llegada sugerida 18:15.
-- **26/11**: desfile Thanksgiving y plan por lluvia, sin contar con comercios abiertos.
-- **27/11**: Macy's Black Friday + **Victoria's Secret/PINK en 435 7th Ave** + compras/regalos, SoHo, Joe's Pizza y edificio de Friends si aún hay energía.
-- **28/11**: opción Brooklyn + Katz's; ferry oficial con desembarque SOLO si no lo hicieron antes, activable desde **Más**. No paga otro tour TopView. Chelsea Market es opcional, no obligatorio.
-- **29/11**: equipaje, LIRR/AirTrain, vuelo JFK 18:25.
-- **177 frases** en múltiples categorías con audio en inglés, y diálogos específicos en actividades de Washington, tiendas, scooter, restaurante, ferry y fotos.
-- Pronóstico en línea por el botón **Actualizar clima** usando Open-Meteo; actualización no cambia reservas por sí sola. Información almacenada localmente en el iPhone. El clima de referencia se revisó el 23/11.
+## Privacidad y migración automática
 
-## URGENTE: Washington mañana
+Los archivos del ZIP son públicos. No incluyen tu JSON privado ni gastos personales. Se migra automáticamente el estado de la aplicación previa guardado en Safari/iPhone en la clave local `nyc2026-v1`: marcas, tareas y gastos se mantienen y las visitas históricas se pasan a sus días reales. Si instalas en otro dispositivo o se borra el almacenamiento local, restaura desde **Más > Restaurar copia anterior** usando el respaldo privado generado.
 
-No hay disponibilidad confirmada para 24/11; reserva solo al ver **2 adultos + fecha 24/11 + salida y guía en español** en la confirmación:
+En el respaldo anterior la actividad titulada “One World Observatory” aparecía marcada, pero no se confirmó una entrada al mirador interior. No se marca como subida al mirador: queda como visita opcional y se puede confirmar expresamente.
 
-- https://www.viator.com/es-ES/tours/New-York/Washington-D-C-Tour-from-New-York/d5560-5614063P8 – Real's Tours, excursión acompañada en español, anuncio de grupo reducido.
-- https://www.expedia.com/things-to-do/washington-d-c-day-trip-from-new-york.a184049.activity-details – Empire Vacations, anuncio de salida 06:30 desde 330 W 42nd St, cerca del New Yorker.
-- https://excursionawashingtonenespanol.com/en/ – tour anunciado desde 7th Ave con W 51st St, consultar precio/cupos y cancelación.
+Los horarios históricos son orientativos (mostrados con ≈), porque el JSON contiene el día planificado y un check de realización, no la hora GPS real.
 
-**No comprar solo billetes de bus interurbano a Washington** ni tour hop-on/hop-off de Washington si quieres transporte entre monumentos con guía acompañante.
+## Publicación en GitHub desde iPhone
 
-## Actualización del repositorio desde iPhone
+1. En la versión instalada: **Más > Guardar copia JSON** (guardar PRIVADO, nunca subir al GitHub público).
+2. Descomprimir el ZIP en Archivos. Abrir `https://github.com/MAGOTecno/nyc2026` > Add file > Upload files.
+3. Subir los 11 archivos individuales a la raíz del repositorio y reemplazar anteriores; Commit changes.
+4. Esperar GitHub Pages y abrir `https://magotecno.github.io/nyc2026/` desde Safari. Si aparece la versión antigua, en Más tocar Buscar actualización y cerrar/reabrir la app.
+5. Comprobar el domingo 22 y lunes 23, ambos con checks de visitas individuales; y el martes 24 con Washington confirmado. Ajustar hora exacta de salida según voucher.
 
-1. En tu aplicación instalada pulsa **Más → Guardar copia JSON**. Es **privada**: solo en Archivos o iCloud privado, **nunca en GitHub**.
-2. Descarga `NYC2026_v5_GitHub_Pages.zip` desde ChatGPT. Abre Archivos y pulsa el ZIP para descomprimir.
-3. Safari → https://github.com/MAGOTecno/nyc2026 → `Add file` → `Upload files`. Si no ves opciones, usa «Solicitar sitio web de escritorio». Selecciona los **11 archivos sueltos** dentro de la carpeta descomprimida.
-4. Deben quedar en la raíz junto a `index.html`, no dentro de una subcarpeta. Confirma **Commit changes**.
-5. Espera 1–3 minutos, abre https://magotecno.github.io/nyc2026/ , toca **Más → Buscar actualización** y fuerza cierre/reapertura de la aplicación si ves recursos antiguos. La versión visible es **5.0**.
-6. Revisa **Más** y confirma si Washington está reservado y si ya desembarcaron en Liberty Island. El plan se adapta automáticamente.
-7. Comprueba las marcas y 4 gastos. Si faltan, usa **Más → Restaurar copia anterior** y selecciona el JSON PRIVADO v5 o tu respaldo reciente v3; la aplicación lo adapta.
+## Alertas
 
-La migración usa la clave `nyc2026-v1` (mismo origen de las versiones anteriores) y mantiene marcas/gastos. Los horarios personalizados se conservan solo cuando difieren del diseño previo; la nueva versión reordena las actividades predeterminadas. Guarda respaldo antes.
+Los archivos `.ics` son calendarios preparados con zona horaria America/New_York y alarma 30 minutos antes. No incluyen visitas ya realizadas. Se recomienda importar el calendario nuevo en uno distinto o eliminar el antiguo antes de cargar este para no duplicar alertas. Los horarios de excursiones privadas deben ajustarse antes de exportar alertas desde la app.
 
-## Calendario
+## Aclaraciones
 
-Incluimos ICS de itinerario base **sin Washington confirmado**. Para generar alertas correctas del plan que elijas: marca si reservaste Washington y si necesitas ferry, luego entra a **Más → Alertas y calendario** y exporta **Alertas esenciales**. Importa el nuevo calendario en Apple y elimina el anterior si estaba importado (así evitas avisos duplicados). La PWA sola no envía alertas con la aplicación cerrada.
-
-## Nota sobre el ferry y la bicicleta/scooter
-
-Una foto o visita panorámica desde TopView **no equivale a desembarcar** en Liberty Island ni entrar al mirador One World. Si ya desembarcaron, activa esa casilla y el ferry se oculta; si desean la visita y no la hicieron, activa «Ruta ferry oficial». Scooter eléctrico: solamente en vías autorizadas (`Park Drives`) y sujeto a reglas de NYC Parks; **no** utilizar por senderos ni veredas. Recomendamos bici tradicional para viajar tranquilos.
-
-## Privacidad
-
-El repositorio GitHub es público. El ZIP solo contiene código, itinerario genérico e íconos. Tu progreso y los gastos NO van dentro del ZIP, ni se comparten con GitHub. Los archivos privados JSON deben quedarse en tu iPhone.
-
-## Actualización Liberty Cruise (v5.1)
-
-El viaje panorámico **Liberty Cruise** ya fue realizado: vieron la Estatua de la Libertad desde el barco, sin confirmación de desembarque en la isla. La ruta del sábado recomienda Brooklyn y Katz’s y mantiene el ferry oficial a Liberty Island como **alternativa opcional**, solo si quieren desembarcar. Los datos privados siguen exclusivamente en el teléfono.
-
-**Nota para actualización desde la versión 3:** La primera apertura migrará las marcas de actividades y gastos del teléfono y registrará Liberty Cruise como completado. No hará falta importar un JSON de respaldo si el iPhone mantiene su almacenamiento. El archivo ZIP no incluye gastos personales.
+- Liberty Cruise ya realizado = barco panorámico de cerca, no desembarco en Liberty Island.
+- Empire State “visto desde el bus” NO indica que hayan subido al mirador.
+- Pista Rockefeller “vista” NO indica que patinaron.
+- Biblioteca Pública “vista” NO implica ingreso a las salas.
+- Puentes “vistos desde ferry” no afirma específicamente cuáles fueron.

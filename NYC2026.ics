@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
+PRODID:-//NYC2026 v5.2//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-PRODID:-//NYC 2026 v5//ES
-X-WR-CALNAME:NYC 2026 v5
+X-WR-CALNAME:NYC 2026 v5.2
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:STANDARD
@@ -22,780 +22,773 @@ TZNAME:EDT
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:NYC2026V5-24-nyc-amnh@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261124T100000
+UID:NYC2026V52-24-0@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T054500
 DURATION:PT30M
-SUMMARY:Museo de Historia Natural · Noche en el museo
-LOCATION:American Museum of Natural History\, 200 Central Park West\, New Y
- ork
-DESCRIPTION:1. Camina a Penn Station lado 8ª Avenida. 2. Toma metro C Upto
- wn hacia 81 St–Museum of Natural History. 3. Sal y entra por Central Par
- k West. 4. Dedica dos horas a dinosaurios\, ballena azul y salas de la pel
- ícula.
+SUMMARY:Washington confirmado · salida según voucher
+LOCATION:Salida según tour reservado (Midtown Manhattan)
+DESCRIPTION:1. Abrir comprobante de reserva y localizar Meeting Point y Departure Time. 2. Ajustar la hora en esta actividad según voucher. 3. Salir del hotel con tiempo extra para llegar 15–20 min antes. 4. Mostrar voucher al personal y viajar con el guía.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Museo de Historia Natural · Noche en el museo
+DESCRIPTION:Washington confirmado · salida según voucher
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-24-nyc-lunch@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261124T123000
+UID:NYC2026V52-24-1@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T103000
 DURATION:PT30M
-SUMMARY:Almuerzo tranquilo en Upper West Side
-LOCATION:Columbus Avenue and W 78th Street\, New York
-DESCRIPTION:1. Sal del museo por 79/81 St. 2. Busca un café o deli sobre C
- olumbus Avenue. 3. Regresa al sur del parque en metro C o taxi.
+SUMMARY:Capitolio (exterior)
+LOCATION:United States Capitol\, Washington DC
+DESCRIPTION:Se llega según la ruta del bus turístico. No ingresar al recinto sin reserva de visita.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo tranquilo en Upper West Side
+DESCRIPTION:Capitolio (exterior)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-24-nyc-bike@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-24-2@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T120000
+DURATION:PT30M
+SUMMARY:National Mall y monumentos
+LOCATION:National Mall\, Washington DC
+DESCRIPTION:Desplazamiento en bus turístico entre puntos. En las paradas caminar solo tramos cortos.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:National Mall y monumentos
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-24-3@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T130000
+DURATION:PT30M
+SUMMARY:Almuerzo en Washington
+LOCATION:National Mall\, Washington DC
+DESCRIPTION:Elegir comida cerca de la parada del tour\; llevar agua.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo en Washington
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-24-4@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261124T140000
 DURATION:PT30M
-SUMMARY:Central Park en bici o scooter · circuito permitido
-LOCATION:Unlimited Biking\, 56 W 56th St\, New York
-DESCRIPTION:1. Desde museo\, metro C Downtown desde 81 St hasta 59 St–Col
- umbus Circle. 2. Camina unos minutos al alquiler elegido. 3. Pide casco y 
- pregunta qué scooter/bici permite el parque. 4. Entra solo por Park Drive
- s habilitados y sigue sentido de circulación. 5. Para Bethesda Terrace y 
- puentes hay que bajar y caminar por senderos\, no entrar con scooter.
+SUMMARY:Lincoln Memorial
+LOCATION:Lincoln Memorial\, Washington DC
+DESCRIPTION:Desde la parada del tour caminar por el paseo habilitado hasta las escaleras.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Central Park en bici o scooter · circuito permitido
+DESCRIPTION:Lincoln Memorial
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-24-nyc-mall@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261124T161000
+UID:NYC2026V52-24-5@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T160000
 DURATION:PT30M
-SUMMARY:The Shops at Columbus Circle · mall interior
-LOCATION:10 Columbus Circle\, New York\, NY
-DESCRIPTION:1. Termina alquiler y entra a Columbus Circle. 2. Cruza a The S
- hops at Columbus Circle (10 Columbus Cir). 3. Regresa en metro A/C desde 5
- 9 St–Columbus Circle a 34 St–Penn\, junto al hotel.
+SUMMARY:Casa Blanca (exterior)
+LOCATION:White House\, Washington DC
+DESCRIPTION:Seguir al guía a la zona de observación exterior autorizada\, que puede variar por seguridad.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:The Shops at Columbus Circle · mall interior
+DESCRIPTION:Casa Blanca (exterior)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-24-nyc-rest@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261124T171500
+UID:NYC2026V52-24-6@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261124T173000
 DURATION:PT30M
-SUMMARY:Regreso al hotel y descanso
-LOCATION:The New Yorker Hotel\, 481 8th Ave\, New York
-DESCRIPTION:De Columbus Circle línea A o C Downtown hasta Penn Station en 
- 34th\; salir a 8th Avenue.
+SUMMARY:Regreso a Nueva York
+LOCATION:The New Yorker Hotel
+DESCRIPTION:Bus o tren contratado\; la llegada estimada es 21:30–23:00 según tránsito y operador.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Regreso al hotel y descanso
+DESCRIPTION:Regreso a Nueva York
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-0@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-0@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T090000
 DURATION:PT30M
 SUMMARY:Desayuno con calma
 LOCATION:The New Yorker Hotel
 DESCRIPTION:Café cerca del hotel.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desayuno con calma
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-nyc-hudson@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-23-1@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T100000
 DURATION:PT30M
-SUMMARY:Hudson Yards + Vessel · foto
-LOCATION:20 Hudson Yards\, New York\, NY
-DESCRIPTION:1. Desde 481 8th Ave avanza por W 34th Street hasta 10th Avenue
-  y Hudson Yards (aprox. 15 min). 2. Haz fotos de Vessel desde exterior. 3.
-  No hace falta subir a ninguna atracción para disfrutar.
+SUMMARY:Museo de Historia Natural · Noche en el museo
+LOCATION:American Museum of Natural History\, 200 Central Park West
+DESCRIPTION:Caminar a 34 St–Penn Station\, entrada 8th Avenue. Tomar C Uptown hasta 81 St–Museum of Natural History. Seguir señalética al museo\; si hay cortes\, consultar MTA.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Hudson Yards + Vessel · foto
+DESCRIPTION:Museo de Historia Natural · Noche en el museo
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-nyc-mall@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261125T104500
+UID:NYC2026V52-25-1@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T123000
 DURATION:PT30M
-SUMMARY:Mall cubierto The Shops at Hudson Yards
-LOCATION:20 Hudson Yards\, New York\, NY
-DESCRIPTION:1. Desde Vessel entrar al edificio The Shops & Restaurants at H
- udson Yards. 2. Revisar tiendas y regalos. 3. Si tienen energía caminar h
- acia High Line y volver.
+SUMMARY:Central Park · bici/scooter o paseo corto (opcional)
+LOCATION:Columbus Circle\, Central Park\, New York
+DESCRIPTION:1. Desde 81 St (Museo)\, metro C Downtown a 59 St–Columbus Circle. 2. Cerca del parque hay locales de alquiler en W 56th/W 58th. 3. Preguntar por bici tradicional o scooter autorizado y por el recorrido en vías Park Drives\; no circular por caminos peatonales. 4. Devolver equipo antes de las 14:00 y salir hacia el hotel para descansar antes de la NBA.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Mall cubierto The Shops at Hudson Yards
+DESCRIPTION:Central Park · bici/scooter o paseo corto (opcional)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-nyc-highline@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261125T120000
+UID:NYC2026V52-25-2@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T130000
 DURATION:PT30M
-SUMMARY:High Line · paseo corto y fotografías
-LOCATION:High Line at W 30th Street\, New York
-DESCRIPTION:1. Entrar al High Line cerca de Hudson Yards. 2. Caminar hacia 
- el sur 10–20 min. 3. Si quieren terminar pronto\, salir por un acceso de
-  escaleras/ascensor. 4. Taxi o caminata moderada de regreso al hotel.
+SUMMARY:The Mall y Bethesda Terrace
+LOCATION:Bethesda Terrace\, Central Park
+DESCRIPTION:Desde The Plaza ingresar nuevamente al parque por el sur\, seguir señalización a The Mall y Bethesda Terrace (15–25 min a pie). Omite si hay mucho cansancio.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:High Line · paseo corto y fotografías
+DESCRIPTION:The Mall y Bethesda Terrace
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-nyc-lunch@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261125T125000
+UID:NYC2026V52-25-gapstow@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T130000
 DURATION:PT30M
-SUMMARY:Almuerzo breve + regreso al hotel
-LOCATION:The New Yorker Hotel\, 481 8th Ave\, New York
-DESCRIPTION:Tomar taxi si hace frío o volver a pie 15–20 min desde Hudso
- n Yards\; no añadir otras visitas antes de NBA.
+SUMMARY:Puente Gapstow · Kevin y la señora de las palomas
+LOCATION:Gapstow Bridge\, Central Park\, 62nd Street and 5th Avenue\, New York
+DESCRIPTION:Desde Columbus Circle caminar por el borde sur de Central Park hacia 5th Ave hasta Gapstow Bridge (15–20 min\, con pausas).
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Almuerzo breve + regreso al hotel
+DESCRIPTION:Puente Gapstow · Kevin y la señora de las palomas
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-5@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-3@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T132000
+DURATION:PT30M
+SUMMARY:Bow Bridge\, fotos
+LOCATION:Bow Bridge\, Central Park
+DESCRIPTION:Desde Bethesda Terrace\, seguir sendero noroeste hacia Bow Bridge\, 5–10 min.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Bow Bridge\, fotos
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-25-plaza@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T132500
+DURATION:PT30M
+SUMMARY:The Plaza Hotel · hotel de Kevin
+LOCATION:The Plaza Hotel\, 768 5th Avenue\, New York
+DESCRIPTION:Desde Gapstow Bridge caminar unos 5–8 min al sureste hasta 5th Avenue y Central Park South\; ver la fachada del The Plaza Hotel. No es necesario entrar.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:The Plaza Hotel · hotel de Kevin
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-25-4@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261125T133500
+DURATION:PT30M
+SUMMARY:Almuerzo cerca de Central Park South
+LOCATION:Central Park South / Columbus Circle\, Manhattan
+DESCRIPTION:Desde el Plaza caminar al oeste por Central Park South hasta Columbus Circle (10–12 min)\; almorzar cerca de la esquina 59th/8th Ave.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Almuerzo cerca de Central Park South
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-25-5@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T143000
 DURATION:PT30M
 SUMMARY:Descanso largo antes del partido
 LOCATION:The New Yorker Hotel
-DESCRIPTION:Desde 72 St (línea C) tomar Downtown hasta 34 St–Penn (8th A
- ve)\; caminar al hotel.
+DESCRIPTION:Desde 72 St (línea C) tomar Downtown hasta 34 St–Penn (8th Ave)\; caminar al hotel.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Descanso largo antes del partido
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-6@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-6@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T174500
 DURATION:PT30M
 SUMMARY:Comer antes del partido
 LOCATION:Herald Square\, Manhattan
-DESCRIPTION:Cena temprana cerca del hotel\; no llevar bolsos grandes al MSG
- .
+DESCRIPTION:Cena temprana cerca del hotel\; no llevar bolsos grandes al MSG.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Comer antes del partido
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-7@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-7@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T181500
 DURATION:PT30M
 SUMMARY:Ingreso a Madison Square Garden
 LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
-DESCRIPTION:Caminar 3–5 min desde hotel hacia Penn Station y la entrada i
- ndicada en las entradas (MSG ocupa Penn Plaza).
+DESCRIPTION:Caminar 3–5 min desde hotel hacia Penn Station y la entrada indicada en las entradas (MSG ocupa Penn Plaza).
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Ingreso a Madison Square Garden
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-8@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-8@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T193000
 DURATION:PT30M
 SUMMARY:Knicks vs Cavaliers 🏀
 LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
-DESCRIPTION:Ya dentro del recinto\, seguir sección\, fila y asientos que a
- parecen en Wallet.
+DESCRIPTION:Ya dentro del recinto\, seguir sección\, fila y asientos que aparecen en Wallet.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Knicks vs Cavaliers 🏀
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-25-9@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-25-9@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261125T220000
 DURATION:PT30M
 SUMMARY:Regreso caminando al hotel
 LOCATION:The New Yorker Hotel
-DESCRIPTION:Salir del estadio y caminar aprox. 3–5 min hasta 8th Avenue. 
- Hora final referencial.
+DESCRIPTION:Salir del estadio y caminar aprox. 3–5 min hasta 8th Avenue. Hora final referencial.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Regreso caminando al hotel
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-0@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-0@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T063000
 DURATION:PT30M
 SUMMARY:Desayuno y abrigo impermeable
 LOCATION:The New Yorker Hotel
-DESCRIPTION:Revisar lluvia y accesos de parade antes de salir\; llevar ropa
-  térmica.
+DESCRIPTION:Revisar lluvia y accesos de parade antes de salir\; llevar ropa térmica.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desayuno y abrigo impermeable
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-1@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-1@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T070000
 DURATION:PT30M
 SUMMARY:Buscar lugar público para desfile
 LOCATION:6th Avenue and West 42nd Street\, Manhattan
-DESCRIPTION:Desde hotel caminar al este por W 34th hasta 6th Ave\; avanzar 
- al norte por acceso permitido hasta la zona de W 42nd. Policía puede bloq
- uear cruces.
+DESCRIPTION:Desde hotel caminar al este por W 34th hasta 6th Ave\; avanzar al norte por acceso permitido hasta la zona de W 42nd. Policía puede bloquear cruces.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Buscar lugar público para desfile
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-2@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-2@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T083000
 DURATION:PT30M
 SUMMARY:Desfile de Macy’s (100ª edición)
 LOCATION:6th Avenue\, Manhattan
-DESCRIPTION:Desde hotel: caminar hasta Sixth Avenue por W 34th y avanzar ha
- cia W 42nd por zona habilitada\, sujeto a calles cortadas por policía.
+DESCRIPTION:Desde hotel: caminar hasta Sixth Avenue por W 34th y avanzar hacia W 42nd por zona habilitada\, sujeto a calles cortadas por policía.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desfile de Macy’s (100ª edición)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-3@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-3@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T120000
 DURATION:PT30M
 SUMMARY:Almuerzo Thanksgiving
 LOCATION:Herald Square\, Manhattan
 DESCRIPTION:Muchos locales con horarios especiales: revisar disponibilidad.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Almuerzo Thanksgiving
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-4@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-4@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T133000
 DURATION:PT30M
 SUMMARY:Descanso largo
 LOCATION:The New Yorker Hotel
-DESCRIPTION:A pie desde zona del desfile cuando se pueda salir de las calle
- s cerradas.
+DESCRIPTION:A pie desde zona del desfile cuando se pueda salir de las calles cerradas.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Descanso largo
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-26-5@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-26-5@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261126T183000
 DURATION:PT30M
 SUMMARY:Cena de Thanksgiving
 LOCATION:Herald Square\, Manhattan
-DESCRIPTION:Reservar con anticipación si quieren cena de pavo tradicional\
- ; sino buscar local abierto cerca del hotel.
+DESCRIPTION:Reservar con anticipación si quieren cena de pavo tradicional\; sino buscar local abierto cerca del hotel.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Cena de Thanksgiving
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-0@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-0@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T080000
 DURATION:PT30M
 SUMMARY:Desayuno
 LOCATION:The New Yorker Hotel
 DESCRIPTION:Tomar un café y preparar lista de compras.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desayuno
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-1@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-1@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T090000
 DURATION:PT30M
 SUMMARY:Macy’s Herald Square · compras Black Friday
 LOCATION:Macy’s\, 151 West 34th Street
-DESCRIPTION:Desde hotel: avanzar al este por W 34th Street hasta Broadway\,
-  8 min a pie.
+DESCRIPTION:Desde hotel: avanzar al este por W 34th Street hasta Broadway\, 8 min a pie.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Macy’s Herald Square · compras Black Friday
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-victorias@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-victorias@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T100500
 DURATION:PT30M
 SUMMARY:Victoria’s Secret & PINK · regalos y perfumes
 LOCATION:Victoria’s Secret & PINK\, 435 7th Ave\, New York
-DESCRIPTION:1. Desde The New Yorker caminar por W 34th Street hacia 7th Ave
- . 2. Local en esquina 34th/7th: 435 7th Ave. 3. Comparar promociones de Bl
- ack Friday y preguntar el precio final con impuesto. 4. Volver al hotel co
- n las bolsas antes de ir a SoHo.
+DESCRIPTION:1. Desde The New Yorker caminar por W 34th Street hacia 7th Ave. 2. Local en esquina 34th/7th: 435 7th Ave. 3. Comparar promociones de Black Friday y preguntar el precio final con impuesto. 4. Volver al hotel con las bolsas antes de ir a SoHo.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Victoria’s Secret & PINK · regalos y perfumes
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-2@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-2@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T104500
 DURATION:PT30M
 SUMMARY:Zapatillas\, ropa y regalos · calle 34
 LOCATION:West 34th Street\, Manhattan
-DESCRIPTION:Recorrer tiendas de 34th Street y\, si conviene\, bajar a otra 
- zona en metro.
+DESCRIPTION:Recorrer tiendas de 34th Street y\, si conviene\, bajar a otra zona en metro.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Zapatillas\, ropa y regalos · calle 34
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-3@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-3@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T123000
 DURATION:PT30M
 SUMMARY:Dejar bolsas en hotel
 LOCATION:The New Yorker Hotel
 DESCRIPTION:Volver caminando por West 34th St hacia 8th Avenue.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Dejar bolsas en hotel
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-4@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-4@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T130000
 DURATION:PT30M
 SUMMARY:Almuerzo
 LOCATION:Herald Square\, Manhattan
 DESCRIPTION:Almorzar cerca del hotel antes de salir otra vez.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Almuerzo
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-5@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-5@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T150000
 DURATION:PT30M
 SUMMARY:Compras opcionales en SoHo
 LOCATION:Prince Street and Broadway\, SoHo\, Manhattan
-DESCRIPTION:Desde Herald Sq tomar metro R/W Downtown hasta Prince St\, y sa
- lir a Broadway. Cambios de servicio posibles.
+DESCRIPTION:Desde Herald Sq tomar metro R/W Downtown hasta Prince St\, y salir a Broadway. Cambios de servicio posibles.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Compras opcionales en SoHo
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-23-gifts@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-23-gifts@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T150500
 DURATION:PT30M
 SUMMARY:Tiendas LEGO y Nintendo NY · regalos
 LOCATION:Nintendo NY\, 10 Rockefeller Plaza\, New York
-DESCRIPTION:1. Salir de FAO Schwarz. 2. Buscar Nintendo NY en 10 Rockefelle
- r Plaza (misma zona). 3. Si desean\, caminar a LEGO Store 5th Avenue en 63
- 6 Fifth Avenue. 4. Comparar precios y reservar espacio en equipaje.
+DESCRIPTION:1. Salir de FAO Schwarz. 2. Buscar Nintendo NY en 10 Rockefeller Plaza (misma zona). 3. Si desean\, caminar a LEGO Store 5th Avenue en 636 Fifth Avenue. 4. Comparar precios y reservar espacio en equipaje.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Tiendas LEGO y Nintendo NY · regalos
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-23-fao@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-23-fao@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T154000
 DURATION:PT30M
 SUMMARY:FAO Schwarz · inspiración de Duncan’s Toy Chest
 LOCATION:FAO Schwarz\, 30 Rockefeller Plaza\, New York
-DESCRIPTION:1. Salir del museo hacia estación 81 St–Museum of Natural Hi
- story (línea C). 2. Tomar C dirección Downtown hasta 50 St. 3. Caminar a
- l este por W 50 St hasta 5th Avenue y Rockefeller Center. 4. Entrar a FAO 
- Schwarz. Ya conocen la plaza del árbol.
+DESCRIPTION:1. Salir del museo hacia estación 81 St–Museum of Natural History (línea C). 2. Tomar C dirección Downtown hasta 50 St. 3. Caminar al este por W 50 St hasta 5th Avenue y Rockefeller Center. 4. Entrar a FAO Schwarz. Ya conocen la plaza del árbol.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:FAO Schwarz · inspiración de Duncan’s Toy Chest
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-joes@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-joes@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T160000
 DURATION:PT30M
 SUMMARY:Joe’s Pizza · la pizzería de Peter Parker
 LOCATION:Joe’s Pizza\, 7 Carmine Street\, New York
-DESCRIPTION:1. Desde SoHo acercarse a Bleecker St y Carmine St. 2. Fotograf
- iar esquina original 233 Bleecker. 3. Caminar unos metros a Joe’s Pizza 
- actual\, 7 Carmine. 4. Pedir una slice clásica y seguir hacia Friends.
+DESCRIPTION:1. Desde SoHo acercarse a Bleecker St y Carmine St. 2. Fotografiar esquina original 233 Bleecker. 3. Caminar unos metros a Joe’s Pizza actual\, 7 Carmine. 4. Pedir una slice clásica y seguir hacia Friends.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Joe’s Pizza · la pizzería de Peter Parker
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-friends@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-friends@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T164000
 DURATION:PT30M
 SUMMARY:Edificio de Friends · departamento de Mónica
 LOCATION:90 Bedford Street\, corner of Grove Street\, New York
-DESCRIPTION:1. Salir de Joe’s Pizza por Carmine/Bleecker. 2. Caminar haci
- a Bedford y Grove St. 3. Fotografiar desde la esquina sin entrar al edific
- io ni molestar a vecinos. 4. Volver al hotel en metro desde W 4 St (línea
-  A/C/E Uptown a 34 St–Penn).
+DESCRIPTION:1. Salir de Joe’s Pizza por Carmine/Bleecker. 2. Caminar hacia Bedford y Grove St. 3. Fotografiar desde la esquina sin entrar al edificio ni molestar a vecinos. 4. Volver al hotel en metro desde W 4 St (línea A/C/E Uptown a 34 St–Penn).
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Edificio de Friends · departamento de Mónica
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-23-levain@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-23-levain@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T173000
 DURATION:PT30M
 SUMMARY:Levain Bakery · galleta gigante
 LOCATION:Levain Bakery\, 351 Amsterdam Avenue\, New York
-DESCRIPTION:1. Salir del Museo por Central Park West. 2. Caminar hacia Amst
- erdam Avenue y W 77–78 St\, hasta 351 Amsterdam Ave. 3. Elegir una galle
- ta para compartir. 4. Volver al metro C para llegar a FAO Schwarz.
+DESCRIPTION:1. Salir del Museo por Central Park West. 2. Caminar hacia Amsterdam Avenue y W 77–78 St\, hasta 351 Amsterdam Ave. 3. Elegir una galleta para compartir. 4. Volver al metro C para llegar a FAO Schwarz.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Levain Bakery · galleta gigante
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-6@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-6@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T174000
 DURATION:PT30M
 SUMMARY:Regresar y descansar
 LOCATION:The New Yorker Hotel
-DESCRIPTION:1. Salir de Katz’s y dirigirse a estación 2 Av (línea F). 2
- . Tomar F Uptown hasta 34 St–Herald Sq según servicio. 3. Caminar por W
-  34th hacia 8th Avenue. Taxi si prefieren.
+DESCRIPTION:1. Salir de Katz’s y dirigirse a estación 2 Av (línea F). 2. Tomar F Uptown hasta 34 St–Herald Sq según servicio. 3. Caminar por W 34th hacia 8th Avenue. Taxi si prefieren.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Regresar y descansar
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V5-23-bryant@viaje.local
-DTSTAMP:20261123T233444Z
-DTSTART;TZID=America/New_York:20261127T180500
-DURATION:PT30M
-SUMMARY:Bryant Park y mercado navideño (opcional)
-LOCATION:Bryant Park\, Manhattan\, New York
-DESCRIPTION:Desde Rockefeller / LEGO: caminar hacia el sur por Fifth Avenue
-  hasta calle 42 (12–15 min)\, luego oeste hacia Bryant Park. Si no queda
-  energía\, ir al hotel.
-BEGIN:VALARM
 TRIGGER:-PT30M
-ACTION:DISPLAY
-DESCRIPTION:Bryant Park y mercado navideño (opcional)
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-27-7@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-27-7@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T191500
 DURATION:PT30M
 SUMMARY:Cena o cheesecake sin apuro
 LOCATION:Herald Square\, Manhattan
 DESCRIPTION:Pausa cerca del The New Yorker. Sin traslado necesario.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Cena o cheesecake sin apuro
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-23-juniors@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-23-juniors@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261127T193000
 DURATION:PT30M
 SUMMARY:Junior’s · cheesecake neoyorquino (opcional)
 LOCATION:Junior’s Restaurant and Bakery\, 1515 Broadway\, New York
-DESCRIPTION:1. Desde Times Square ubicar Broadway y W 45 St. 2. Entrar a Ju
- nior’s (1515 Broadway). 3. Pedir una porción de cheesecake. 4. Regresar
-  en metro o caminando al hotel.
+DESCRIPTION:1. Desde Times Square ubicar Broadway y W 45 St. 2. Entrar a Junior’s (1515 Broadway). 3. Pedir una porción de cheesecake. 4. Regresar en metro o caminando al hotel.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Junior’s · cheesecake neoyorquino (opcional)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-0@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-0@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T083000
 DURATION:PT30M
-SUMMARY:Definir: ¿ferry a Liberty Island o Brooklyn?
+SUMMARY:Sábado: Brooklyn y Katz’s · ferry a la isla solo opcional
 LOCATION:The New Yorker Hotel
-DESCRIPTION:1. Verificar si cuentan con ticket y fotos de haber bajado en L
- iberty Island/Ellis Island. 2. Si solo vieron la Estatua desde el bus\, co
- mprar ferry oficial en Statue City Cruises. 3. Si ya desembarcaron\, salta
- r ferry y usar metro a DUMBO/Brooklyn.
+DESCRIPTION:1. Verificar si cuentan con ticket y fotos de haber bajado en Liberty Island/Ellis Island. 2. Si solo vieron la Estatua desde el bus\, comprar ferry oficial en Statue City Cruises. 3. Si ya desembarcaron\, saltar ferry y usar metro a DUMBO/Brooklyn.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
-DESCRIPTION:Definir: ¿ferry a Liberty Island o Brooklyn?
+DESCRIPTION:Sábado: Brooklyn y Katz’s · ferry a la isla solo opcional
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-brooklyn-ride@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-brooklyn-ride@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T100000
 DURATION:PT30M
 SUMMARY:DUMBO y Brooklyn Bridge Park · sin repetir TopView
 LOCATION:Washington Street and Water Street\, Brooklyn\, New York
-DESCRIPTION:1. Entra a 34 St–Penn (8th Ave). 2. Toma A/C hacia Brooklyn y
-  baja en High St. 3. Camina por Cadman Plaza hacia Washington St y Water S
- t. 4. Fotos y continuación al East River por Brooklyn Bridge Park. 5. Par
- a salir\, vuelve a High St o usa York St línea F.
+DESCRIPTION:1. Entra a 34 St–Penn (8th Ave). 2. Toma A/C hacia Brooklyn y baja en High St. 3. Camina por Cadman Plaza hacia Washington St y Water St. 4. Fotos y continuación al East River por Brooklyn Bridge Park. 5. Para salir\, vuelve a High St o usa York St línea F.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:DUMBO y Brooklyn Bridge Park · sin repetir TopView
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-brooklyn-food@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-brooklyn-food@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T123000
 DURATION:PT30M
 SUMMARY:Almuerzo tranquilo en Brooklyn
 LOCATION:DUMBO\, Brooklyn\, New York
-DESCRIPTION:Buscar un local cercano\, revisar menú y no forzar reservas si
-  hay fila larga.
+DESCRIPTION:Buscar un local cercano\, revisar menú y no forzar reservas si hay fila larga.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Almuerzo tranquilo en Brooklyn
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-chelsea@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-chelsea@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T144500
 DURATION:PT30M
 SUMMARY:Chelsea Market · comida\, recuerdos y tiendas (opcional)
 LOCATION:Chelsea Market\, 75 9th Ave\, New York
-DESCRIPTION:1. Desde DUMBO usar A/C hasta W 14 St. 2. Caminar al oeste por 
- 14th St hacia 9th Avenue. 3. Entrar a Chelsea Market. 4. Si no alcanza el 
- tiempo o quieren ir directo a Katz’s\, saltar esta actividad.
+DESCRIPTION:1. Desde DUMBO usar A/C hasta W 14 St. 2. Caminar al oeste por 14th St hacia 9th Avenue. 3. Entrar a Chelsea Market. 4. Si no alcanza el tiempo o quieren ir directo a Katz’s\, saltar esta actividad.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Chelsea Market · comida\, recuerdos y tiendas (opcional)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-katz-transfer@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-oneworld@viaje.local
+DTSTAMP:20261124000000Z
+DTSTART;TZID=America/New_York:20261128T153500
+DURATION:PT30M
+SUMMARY:Mirador One World Observatory · solo si no han subido
+LOCATION:One World Observatory\, 117 West Street\, New York\, NY\, USA
+DESCRIPTION:Desde World Trade Center/Oculus acceder al mirador por 117 West Street. Requiere entrada y visita independiente\; si ya subieron\, marca el check.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Mirador One World Observatory · solo si no han subido
+TRIGGER:-PT30M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026V52-28-katz-transfer@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T175000
 DURATION:PT30M
 SUMMARY:Cómo llegar a Katz’s para cenar
 LOCATION:Katz’s Delicatessen\, 205 E Houston St\, New York
-DESCRIPTION:1. Si desde DUMBO\, ir a York St y tomar F hacia Manhattan hast
- a 2 Av. 2. Caminar por E Houston St al este hasta 205. 3. Si están en Che
- lsea Market\, usar taxi o metro y caminar según indicaciones. 4. Guardar 
- el papel/ticket de Katz’s hasta la salida.
+DESCRIPTION:1. Si desde DUMBO\, ir a York St y tomar F hacia Manhattan hasta 2 Av. 2. Caminar por E Houston St al este hasta 205. 3. Si están en Chelsea Market\, usar taxi o metro y caminar según indicaciones. 4. Guardar el papel/ticket de Katz’s hasta la salida.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Cómo llegar a Katz’s para cenar
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-28-7@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-28-7@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261128T183000
 DURATION:PT30M
 SUMMARY:Katz’s Delicatessen · ¡pastrami!
 LOCATION:Katz’s Delicatessen\, 205 East Houston Street\, New York
-DESCRIPTION:1. Desde 90 Bedford ir a estación W 4 St–Washington Sq. 2. T
- omar F Downtown hacia 2 Av (confirmar servicio MTA). 3. Caminar por East H
- ouston St hacia Ludlow St (205 E Houston). 4. Entregar ticket a caja al sa
- lir\, NO perderlo. 5. Regresar al hotel en F Uptown desde 2 Av hacia 34 St
- –Herald Sq\, o taxi.
+DESCRIPTION:1. Desde 90 Bedford ir a estación W 4 St–Washington Sq. 2. Tomar F Downtown hacia 2 Av (confirmar servicio MTA). 3. Caminar por East Houston St hacia Ludlow St (205 E Houston). 4. Entregar ticket a caja al salir\, NO perderlo. 5. Regresar al hotel en F Uptown desde 2 Av hacia 34 St–Herald Sq\, o taxi.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Katz’s Delicatessen · ¡pastrami!
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-0@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-0@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T080000
 DURATION:PT30M
 SUMMARY:Desayuno y maletas
 LOCATION:The New Yorker Hotel
-DESCRIPTION:Si llueve\, quedarse bajo techo y revisar horarios de tren a JF
- K.
+DESCRIPTION:Si llueve\, quedarse bajo techo y revisar horarios de tren a JFK.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Desayuno y maletas
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-1@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-1@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T100000
 DURATION:PT30M
 SUMMARY:Check-out y equipaje
 LOCATION:The New Yorker Hotel
-DESCRIPTION:Confirmar hora límite de check-out y guarda equipaje si hace f
- alta.
+DESCRIPTION:Confirmar hora límite de check-out y guarda equipaje si hace falta.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Check-out y equipaje
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-2@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-2@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T113000
 DURATION:PT30M
 SUMMARY:Almuerzo breve bajo techo (si da tiempo)
 LOCATION:Herald Square\, Manhattan
-DESCRIPTION:Preferir interior y a pocos minutos del hotel. Paseos opcionale
- s solo si no llueve.
+DESCRIPTION:Preferir interior y a pocos minutos del hotel. Paseos opcionales solo si no llueve.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Almuerzo breve bajo techo (si da tiempo)
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-3@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-3@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T123000
 DURATION:PT30M
 SUMMARY:Retirar equipaje
 LOCATION:The New Yorker Hotel
 DESCRIPTION:Comprobar pasaportes\, teléfonos cargados y maletas.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Retirar equipaje
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-4@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-4@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T131500
 DURATION:PT30M
 SUMMARY:Tren hacia JFK
 LOCATION:John F. Kennedy International Airport
-DESCRIPTION:Desde Penn Station tomar LIRR a Jamaica (confirmar andén)\, sa
- lir al AirTrain a JFK\, elegir terminal de LATAM. No tomar tren hacia otra
-  estación.
+DESCRIPTION:Desde Penn Station tomar LIRR a Jamaica (confirmar andén)\, salir al AirTrain a JFK\, elegir terminal de LATAM. No tomar tren hacia otra estación.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Tren hacia JFK
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-5@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-5@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T150000
 DURATION:PT30M
 SUMMARY:Llegada prevista a JFK
 LOCATION:John F. Kennedy International Airport
-DESCRIPTION:Después de LIRR + AirTrain\, bajar en terminal indicada por LA
- TAM y buscar zona de check-in internacional.
+DESCRIPTION:Después de LIRR + AirTrain\, bajar en terminal indicada por LATAM y buscar zona de check-in internacional.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Llegada prevista a JFK
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V5-29-6@viaje.local
-DTSTAMP:20261123T233444Z
+UID:NYC2026V52-29-6@viaje.local
+DTSTAMP:20261124000000Z
 DTSTART;TZID=America/New_York:20261129T182500
 DURATION:PT30M
 SUMMARY:Vuelo de regreso a Santiago
 LOCATION:John F. Kennedy International Airport
-DESCRIPTION:Confirmar en la tarjeta de embarque la terminal\, puerta y hora
-  de embarque.
+DESCRIPTION:Confirmar en la tarjeta de embarque la terminal\, puerta y hora de embarque.
 BEGIN:VALARM
-TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Vuelo de regreso a Santiago
+TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 END:VCALENDAR
