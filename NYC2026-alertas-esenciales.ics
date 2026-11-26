@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//NYC2026 v5.2//ES
+PRODID:-//NYC 2026 v5.3//ES
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:NYC 2026 v5.2
+X-WR-CALNAME:NYC 2026 v5.3
 BEGIN:VTIMEZONE
 TZID:America/New_York
 BEGIN:STANDARD
@@ -22,171 +22,171 @@ TZNAME:EDT
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:NYC2026V52-24-0@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261124T054500
+UID:NYC2026-V53-26-madame@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261126T101000
 DURATION:PT30M
-SUMMARY:Washington confirmado · salida según voucher
-LOCATION:Salida según tour reservado (Midtown Manhattan)
-DESCRIPTION:1. Abrir comprobante de reserva y localizar Meeting Point y Departure Time. 2. Ajustar la hora en esta actividad según voucher. 3. Salir del hotel con tiempo extra para llegar 15–20 min antes. 4. Mostrar voucher al personal y viajar con el guía.
+SUMMARY:Madame Tussauds · figuras famosas bajo techo
+LOCATION:Madame Tussauds New York\, 234 W 42nd Street\, New York\, NY\, USA
+DESCRIPTION:1. Solo si es seguro salir: desde hotel caminar por 8th Avenue hacia W 42nd (aprox. 10–15 min)\; Madame Tussauds está en 234 W 42nd. 2. Comprar entradas a la hora elegida y visitar 60–90 min. 3. Volver en taxi o a pie solo si el clima sigue seguro.
 BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Washington confirmado · salida según voucher
 TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Madame Tussauds · figuras famosas bajo techo
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-25-7@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261125T181500
-DURATION:PT30M
-SUMMARY:Ingreso a Madison Square Garden
-LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
-DESCRIPTION:Caminar 3–5 min desde hotel hacia Penn Station y la entrada indicada en las entradas (MSG ocupa Penn Plaza).
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ingreso a Madison Square Garden
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V52-25-8@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261125T193000
-DURATION:PT30M
-SUMMARY:Knicks vs Cavaliers 🏀
-LOCATION:Madison Square Garden\, 4 Pennsylvania Plaza
-DESCRIPTION:Ya dentro del recinto\, seguir sección\, fila y asientos que aparecen en Wallet.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Knicks vs Cavaliers 🏀
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V52-26-1@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261126T070000
-DURATION:PT30M
-SUMMARY:Buscar lugar público para desfile
-LOCATION:6th Avenue and West 42nd Street\, Manhattan
-DESCRIPTION:Desde hotel caminar al este por W 34th hasta 6th Ave\; avanzar al norte por acceso permitido hasta la zona de W 42nd. Policía puede bloquear cruces.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Buscar lugar público para desfile
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V52-26-2@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261126T083000
-DURATION:PT30M
-SUMMARY:Desfile de Macy’s (100ª edición)
-LOCATION:6th Avenue\, Manhattan
-DESCRIPTION:Desde hotel: caminar hasta Sixth Avenue por W 34th y avanzar hacia W 42nd por zona habilitada\, sujeto a calles cortadas por policía.
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Desfile de Macy’s (100ª edición)
-TRIGGER:-PT30M
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:NYC2026V52-27-1@viaje.local
-DTSTAMP:20261124000000Z
+UID:NYC2026-V53-27-1@viaje.local
+DTSTAMP:20261126030000Z
 DTSTART;TZID=America/New_York:20261127T090000
 DURATION:PT30M
 SUMMARY:Macy’s Herald Square · compras Black Friday
 LOCATION:Macy’s\, 151 West 34th Street
 DESCRIPTION:Desde hotel: avanzar al este por W 34th Street hasta Broadway\, 8 min a pie.
 BEGIN:VALARM
+TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Macy’s Herald Square · compras Black Friday
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-27-victorias@viaje.local
-DTSTAMP:20261124000000Z
+UID:NYC2026-V53-27-victorias@viaje.local
+DTSTAMP:20261126030000Z
 DTSTART;TZID=America/New_York:20261127T100500
 DURATION:PT30M
 SUMMARY:Victoria’s Secret & PINK · regalos y perfumes
 LOCATION:Victoria’s Secret & PINK\, 435 7th Ave\, New York
 DESCRIPTION:1. Desde The New Yorker caminar por W 34th Street hacia 7th Ave. 2. Local en esquina 34th/7th: 435 7th Ave. 3. Comparar promociones de Black Friday y preguntar el precio final con impuesto. 4. Volver al hotel con las bolsas antes de ir a SoHo.
 BEGIN:VALARM
+TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Victoria’s Secret & PINK · regalos y perfumes
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-27-joes@viaje.local
-DTSTAMP:20261124000000Z
+UID:NYC2026-V53-27-joes@viaje.local
+DTSTAMP:20261126030000Z
 DTSTART;TZID=America/New_York:20261127T160000
 DURATION:PT30M
 SUMMARY:Joe’s Pizza · la pizzería de Peter Parker
 LOCATION:Joe’s Pizza\, 7 Carmine Street\, New York
 DESCRIPTION:1. Desde SoHo acercarse a Bleecker St y Carmine St. 2. Fotografiar esquina original 233 Bleecker. 3. Caminar unos metros a Joe’s Pizza actual\, 7 Carmine. 4. Pedir una slice clásica y seguir hacia Friends.
 BEGIN:VALARM
+TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Joe’s Pizza · la pizzería de Peter Parker
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-28-brooklyn-ride@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261128T100000
+UID:NYC2026-V53-26-1@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T070000
 DURATION:PT30M
-SUMMARY:DUMBO y Brooklyn Bridge Park · sin repetir TopView
-LOCATION:Washington Street and Water Street\, Brooklyn\, New York
-DESCRIPTION:1. Entra a 34 St–Penn (8th Ave). 2. Toma A/C hacia Brooklyn y baja en High St. 3. Camina por Cadman Plaza hacia Washington St y Water St. 4. Fotos y continuación al East River por Brooklyn Bridge Park. 5. Para salir\, vuelve a High St o usa York St línea F.
+SUMMARY:Ir temprano a zona pública del desfile · sábado
+LOCATION:6th Avenue and West 42nd Street\, Manhattan\, NY\, USA
+DESCRIPTION:1. Salir del hotel alrededor de las 07:00. 2. Subir por 8th Ave hasta W 42nd\; seguir hacia 6th Ave solo por accesos habilitados. 3. Ubicarse donde indique NYPD\; no entrar a sectores restringidos. 4. Abrigarse y usar zapatos cómodos.
 BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:DUMBO y Brooklyn Bridge Park · sin repetir TopView
 TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Ir temprano a zona pública del desfile · sábado
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-28-7@viaje.local
-DTSTAMP:20261124000000Z
-DTSTART;TZID=America/New_York:20261128T183000
+UID:NYC2026-V53-26-2@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T083000
 DURATION:PT30M
-SUMMARY:Katz’s Delicatessen · ¡pastrami!
-LOCATION:Katz’s Delicatessen\, 205 East Houston Street\, New York
-DESCRIPTION:1. Desde 90 Bedford ir a estación W 4 St–Washington Sq. 2. Tomar F Downtown hacia 2 Av (confirmar servicio MTA). 3. Caminar por East Houston St hacia Ludlow St (205 E Houston). 4. Entregar ticket a caja al salir\, NO perderlo. 5. Regresar al hotel en F Uptown desde 2 Av hacia 34 St–Herald Sq\, o taxi.
+SUMMARY:Desfile Macy’s 100 años · globos gigantes
+LOCATION:6th Avenue\, entre W 38th y W 59th Street\, Manhattan\, NY\, USA
+DESCRIPTION:1. Quedarse en la zona pública elegida en Sexta Avenida. 2. Esperar a que los globos avancen desde Central Park West. 3. Cuando termine el tramo\, caminar con calma alejándose de la multitud. 4. Regresar al hotel si están cansados.
 BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Katz’s Delicatessen · ¡pastrami!
 TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Desfile Macy’s 100 años · globos gigantes
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-29-4@viaje.local
-DTSTAMP:20261124000000Z
+UID:NYC2026-V53-28-brooklyn-ride@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T122000
+DURATION:PT30M
+SUMMARY:Metro a Brooklyn · DUMBO desde High Street
+LOCATION:High St–Brooklyn Bridge Station\, Brooklyn\, NY\, USA
+DESCRIPTION:1. Desde The New Yorker\, entrar a 34 St–Penn Station del lado 8th Ave. 2. Tomar A/C hacia Brooklyn y bajar en High St–Brooklyn Bridge. 3. Salir a Cadman Plaza y caminar hacia Washington St con Water St en DUMBO. 4. Consultar MTA por posibles cambios de servicio tras el desfile.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Metro a Brooklyn · DUMBO desde High Street
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026-V53-28-dumbo-photo@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T130500
+DURATION:PT30M
+SUMMARY:DUMBO · foto del Manhattan Bridge entre edificios
+LOCATION:Washington Street and Water Street\, Brooklyn\, NY\, USA
+DESCRIPTION:1. Desde High St–Brooklyn Bridge caminar hacia Washington St y Water St (10–15 min). 2. Ubicarse en la acera para la foto sin bloquear la calle. 3. Caminar al río hacia Brooklyn Bridge Park.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:DUMBO · foto del Manhattan Bridge entre edificios
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026-V53-28-bridge-cross@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T144500
+DURATION:PT30M
+SUMMARY:Cruzar a pie el puente de Brooklyn · Brooklyn → Manhattan
+LOCATION:Brooklyn Bridge Pedestrian Walkway\, Washington Street & Prospect Street\, Brooklyn\, NY\, USA
+DESCRIPTION:1. Desde DUMBO subir por Washington Street hacia Prospect Street (aprox. 10–15 min). 2. Usar la escalera del paso inferior Washington/Cadman Plaza East con Prospect St para acceder al sendero peatonal\, o la rampa desde Tillary y Boerum/Adams. 3. Caminar desde Brooklyn hacia Manhattan\, 30–50 min con fotos. 4. Bajar por City Hall Park/Centre St. 5. Desde Chambers St o Fulton St\, metro A/C Uptown a 34 St–Penn\; caminar al hotel.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Cruzar a pie el puente de Brooklyn · Brooklyn → Manhattan
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026-V53-28-7@viaje.local
+DTSTAMP:20261126030000Z
+DTSTART;TZID=America/New_York:20261128T180000
+DURATION:PT30M
+SUMMARY:Katz’s Delicatessen · pastrami de Nueva York
+LOCATION:Katz’s Delicatessen\, 205 East Houston Street\, New York\, NY\, USA
+DESCRIPTION:1. Después del puente\, descansar en el hotel. 2. Si están con energía\, taxi hacia Katz’s\, 205 E Houston St. 3. Entrar\, conservar el ticket de entrada y pedir pastrami. 4. Para regresar\, taxi o metro F desde 2 Av a 34 St–Herald Sq\, caminar hasta 8th Ave.
+BEGIN:VALARM
+TRIGGER:-PT30M
+ACTION:DISPLAY
+DESCRIPTION:Katz’s Delicatessen · pastrami de Nueva York
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:NYC2026-V53-29-4@viaje.local
+DTSTAMP:20261126030000Z
 DTSTART;TZID=America/New_York:20261129T131500
 DURATION:PT30M
 SUMMARY:Tren hacia JFK
 LOCATION:John F. Kennedy International Airport
 DESCRIPTION:Desde Penn Station tomar LIRR a Jamaica (confirmar andén)\, salir al AirTrain a JFK\, elegir terminal de LATAM. No tomar tren hacia otra estación.
 BEGIN:VALARM
+TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Tren hacia JFK
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:NYC2026V52-29-6@viaje.local
-DTSTAMP:20261124000000Z
+UID:NYC2026-V53-29-6@viaje.local
+DTSTAMP:20261126030000Z
 DTSTART;TZID=America/New_York:20261129T182500
 DURATION:PT30M
 SUMMARY:Vuelo de regreso a Santiago
 LOCATION:John F. Kennedy International Airport
 DESCRIPTION:Confirmar en la tarjeta de embarque la terminal\, puerta y hora de embarque.
 BEGIN:VALARM
+TRIGGER:-PT30M
 ACTION:DISPLAY
 DESCRIPTION:Vuelo de regreso a Santiago
-TRIGGER:-PT30M
 END:VALARM
 END:VEVENT
 END:VCALENDAR

@@ -1,5 +1,5 @@
-const CACHE='nyc2026-cache-v5-2-20261123';
-const FILES=['./','./index.html','./style.css?v=52','./data.js?v=52','./app.js?v=52','./manifest.webmanifest','./icon-192.png','./icon-512.png','./NYC2026.ics','./NYC2026-alertas-esenciales.ics'];
+const CACHE='nyc2026-cache-v5-3-20261125';
+const FILES=['./','./index.html','./style.css?v=53','./data.js?v=53','./app.js?v=53','./manifest.webmanifest','./icon-192.png','./icon-512.png','./NYC2026.ics','./NYC2026-alertas-esenciales.ics'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('nyc2026-cache-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 self.addEventListener('fetch',event=>{const req=event.request;if(req.method!=='GET'||!req.url.startsWith(self.registration.scope))return;event.respondWith(fetch(req).then(res=>{if(res.ok){const copy=res.clone();caches.open(CACHE).then(c=>c.put(req,copy)).catch(()=>{})}return res}).catch(async()=>await caches.match(req)||((req.mode==='navigate')?await caches.match('./index.html'):Response.error())))});
